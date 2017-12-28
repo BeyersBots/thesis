@@ -1,8 +1,0 @@
-Metric,Units,Accepted Range,Expected Value
-DCSR (Device Classification Success Rate),\%,0 to 100,> 75\%
-EISR (Event Identification Success Rate),\%,0 to 100,> 75\%
-EIFP (Event Identification False Positives),\%,0 to 100,> 75\%
-EIFN (Event Identification False Negatives),\%,0 to 100,> 75\%
-ULSR (User Location Success Rate),\%,0 to 100,> 75\%
-CT (Completion Time),minutes,0 to $\infty$,< 120 minutes
-HDU (Hard Drive Usage),bytes,0 to $\infty$,< 20 GB

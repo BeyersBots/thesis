@@ -1,0 +1,88 @@
+BLE Results:,,Wi-Fi Results:,,Total Results:,
+True Positives,33,True Positives,34,True Positives,67
+False Positives,2,False Positives,1,False Positives,3
+False Negatives,5,False Negatives,1,False Negatives,6
+Number of events logged,38,Number of events logged,35,Number of events logged,73
+Number of events identified,36,Number of events identified,35,Number of events identified,71
+Event identification success rate,86.8421052631579,Event identification success rate,97.14285714285714,Event identification success rate,91.78082191780823
+Event identification false positive rate,5.555555555555555,Event identification false positive rate,2.857142857142857,Event identification false positive rate,4.225352112676056
+Event identification false negative rate,13.157894736842104,Event identification false negative rate,2.857142857142857,Event identification false negative rate,8.21917808219178
+True Positives:
+2017-08-22 05:58,Eve Motion 31A7,1
+2017-08-22 05:59,Instant Pot Smart,1
+2017-08-22 06:00,Eve Motion 31A7,1
+2017-08-22 06:04,PLAYBULB,1
+2017-08-22 06:06,Eve Energy 556E,1
+2017-08-22 06:10,Eve Weather 943D,1
+2017-08-22 06:14,Instant Pot Smart,1
+2017-08-22 06:14,PLAYBULB,1
+2017-08-22 06:15,Gunbox,1
+2017-08-22 06:18,Eve Motion 31A7,1
+2017-08-22 06:19,Eve Room 4A04,1
+2017-08-22 06:20,Eve Motion 31A7,1
+2017-08-22 06:23,Eve Motion 31A7,1
+2017-08-22 06:23,Eve Room 4A04,1
+2017-08-22 06:24,00000b67,1
+2017-08-22 06:25,BLELock,1
+2017-08-22 06:26,Eve Door 91B3,1
+2017-08-22 16:18,Eve Weather 943D,1
+2017-08-22 16:23,Eve Room 4A04,1
+2017-08-22 16:24,Gunbox,1
+2017-08-22 16:25,Instant Pot Smart,1
+2017-08-22 16:27,Eve Motion 31A7,1
+2017-08-22 16:35,PLAYBULB,1
+2017-08-22 16:36,Eve Energy 556E,1
+2017-08-22 16:40,Eve Motion 31A7,1
+2017-08-22 16:40,Gunbox,1
+2017-08-22 16:41,Eve Energy 556E,1
+2017-08-22 16:41,Eve Room 4A04,1
+2017-08-22 16:42,Eve Energy 556E,1
+2017-08-22 16:42,PLAYBULB,1
+2017-08-22 16:42,Eve Motion 31A7,1
+2017-08-22 16:43,Eve Weather 943D,1
+2017-08-22 16:43,Instant Pot Smart,1
+2017-08-22 05:57,Motion,1
+2017-08-22 06:00,Insight,1
+2017-08-22 06:01,Mini,1
+2017-08-22 06:02,Switch2,1
+2017-08-22 06:03,NetCam,1
+2017-08-22 06:05,Switch1,1
+2017-08-22 06:08,Switch3,1
+2017-08-22 06:13,Motion,1
+2017-08-22 06:16,Mini,1
+2017-08-22 06:16,Switch1,1
+2017-08-22 06:16,Switch4,1
+2017-08-22 06:17,NetCam,1
+2017-08-22 06:18,Insight,1
+2017-08-22 06:18,Switch2,1
+2017-08-22 06:18,Switch3,1
+2017-08-22 08:18,Motion,1
+2017-08-22 14:16,Switch1,1
+2017-08-22 14:19,Switch1,1
+2017-08-22 16:19,Switch4,1
+2017-08-22 16:20,Insight,1
+2017-08-22 16:26,Switch1,1
+2017-08-22 16:28,Motion,1
+2017-08-22 16:29,Switch2,1
+2017-08-22 16:30,NetCam,1
+2017-08-22 16:31,Mini,1
+2017-08-22 16:37,Switch3,1
+2017-08-22 16:39,Switch3,1
+2017-08-22 16:39,Motion,1
+2017-08-22 16:39,Insight,1
+2017-08-22 16:40,Switch2,1
+2017-08-22 16:41,Switch4,1
+2017-08-22 16:42,Switch1,1
+2017-08-22 16:42,NetCam,1
+2017-08-22 16:43,Mini,1
+False Positives:
+2017-08-22 14:48,Eve Door 91B3,1
+2017-08-22 16:07,Eve Motion 31A7,1
+2017-08-22 15:18,Motion,1
+False Negatives:
+2017-08-22 06:07,Eve Weather 943D,1
+2017-08-22 06:09,Eve Room 4A04,1
+2017-08-22 06:15,Eve Energy 556E,1
+2017-08-22 14:17,Eve Room 4A04,1
+2017-08-22 14:18,Eve Weather 943D,1
+2017-08-22 06:13,Switch4,1
