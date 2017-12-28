@@ -1,0 +1,35 @@
+<<TCPDUMP>>
+ssh root@172.16.42.1 tcpdump -i wlan1mon
+-i: sets interface
+
+ssh root@172.16.42.1 tcpdump -U -s0 -i wlan1mon -w - 'no port 22'
+
+-U: output is written to stdout at the end of each packet rather than at the end of each line
+-s0: sets the packet capture length to the maximum size of a packet
+-w: writes to a file
+-w -: sets the file to stdout
+
+ssh root@172.16.42.1 tcpdump -U -s0 -i wlan1mon -w - 'no port 22' | wireshark -k -i -
+
+|: pipes output from first to command into second command
+-k: creates the session immediately
+-i -: sets the input to stdout
+
+ssh root@172.16.42.1 tcpdump -U -s0 -i wlan1mon -w - | wireshark -k -i -
+
+
+
+<<TSHARK>>
+ssh root@172.16.42.1 tshark -i wlan1mon -p -f -w test.pcap
+ssh root@172.16.42.1 tshark -i wlan1mon -p -f wlan.BSSID ==  -T fields -e frame.number -e frame.time -e wlan.sa -e wlan.da -e frame.len -E header=y -E separator=, -E quote=d -E occurrence=f > test.csv
+
+
+<<AIRODUMP>>
+ssh root@172.16.42.1 airodump-ng -c <channelnumber or numbers> --bssid <MAC address of WLAN access point> -w <tracefilename to write to> <interface name of your wireless nic>
+
+ssh root@172.16.42.1 airodump-ng -c 1 --bssid EC:4F:82:73:D1:1A --output-format pcap -w test wlan1mon
+
+<<Raspberry Pi>>
+ssh pi@192.168.1.49 sudo tcpdump -U -s0 -i eth0 -w - -tt port not 22 and src or dst 192.168.1.49 | wireshark -k -i -
+
+ssh pi@192.168.1.50 sudo tcpdump -U -s0 -i wlan0 -w - -tt port not 22 | wireshark -k -i -

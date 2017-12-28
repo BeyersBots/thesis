@@ -1,0 +1,19 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CD:13:4F:D4:FE:16",
+        "port": 51826,
+        "pin": "389-12-765"
+    },
+    
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "accessories": [
+        {
+            "accessory": "WeMo",
+            "name": "Livingroom Lamp",
+            "description": "Pipe lamp in livingroom",
+            "wemo_name": "Livingroom Lamp"
+        }
+    ]
+}

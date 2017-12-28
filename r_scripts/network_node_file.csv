@@ -1,0 +1,13 @@
+id,device,device.type,device.label
+s01,ec:4f:82:73:d1:1c,1,Router
+s02,ec:1a:59:e4:fd:41,2,Belkin
+s03,b4:75:0e:0d:33:d5,2,Belkin
+s04,b4:75:0e:0d:94:65,2,Belkin
+s05,94:10:3e:2b:7a:55,2,Belkin
+s06,14:91:82:c8:6a:09,2,Belkin
+s07,ec:1a:59:f1:fb:21,2,Belkin
+s08,14:91:82:24:dd:35,2,Belkin
+s09,60:38:e0:ee:7c:e5,2,Belkin
+s10,b8:27:eb:09:1a:81,3,RasPi
+s11,a0:18:28:33:34:f8,4,Apple
+s12,08:66:98:ed:1e:19,4,Apple

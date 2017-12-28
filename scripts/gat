@@ -1,0 +1,7 @@
+#!/bin/bash
+#Initialize bluetooth service and start gat
+
+service bluetooth start
+rfkill unblock bluetooth
+hciconfig hci0 up
+gatttool -I

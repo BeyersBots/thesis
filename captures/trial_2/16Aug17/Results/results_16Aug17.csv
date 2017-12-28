@@ -1,0 +1,44 @@
+Wi-Fi Results:,
+True Positives,31
+False Positives,0
+False Negatives,0
+Number of events logged,31
+Number of events identified,31
+Event identification success rate,100.0
+Event identification false positive rate,0.0
+Event identification false negative rate,0.0
+True positives:
+True Positives:
+2017-08-16 07:05,Switch1,1
+2017-08-16 07:05,Switch2,1
+2017-08-16 07:07,Switch3,1
+2017-08-16 07:08,Switch4,1
+2017-08-16 07:09,Mini,1
+2017-08-16 07:14,Insight,1
+2017-08-16 07:15,NetCam,1
+2017-08-16 07:18,Motion,1
+2017-08-16 07:22,Switch1,1
+2017-08-16 07:23,Switch2,1
+2017-08-16 07:23,Switch3,1
+2017-08-16 07:23,Mini,1
+2017-08-16 07:23,Switch4,1
+2017-08-16 07:23,Insight,1
+2017-08-16 07:32,NetCam,1
+2017-08-16 15:33,NetCam,1
+2017-08-16 15:42,NetCam,1
+2017-08-16 16:24,Switch1,1
+2017-08-16 16:25,Switch2,1
+2017-08-16 16:26,Switch3,1
+2017-08-16 16:27,Switch4,1
+2017-08-16 16:28,Mini,1
+2017-08-16 16:32,Insight,1
+2017-08-16 16:33,NetCam,1
+2017-08-16 16:35,Motion,1
+2017-08-16 16:39,Switch1,1
+2017-08-16 16:39,Switch2,1
+2017-08-16 16:39,Switch3,1
+2017-08-16 16:39,Switch4,1
+2017-08-16 16:39,Mini,1
+2017-08-16 16:39,Insight,1
+False Positives:
+False Negatives:

@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: iccws.aux
+The style file: plain.bst
+Database file #1: ../Back/myReferences.bib
+I was expecting a `,' or a `}'---line 197 of file ../Back/myReferences.bib
+ :  
+ :  journal = {HotMobile '16}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 387 of file ../Back/myReferences.bib
+ :  
+ :  organization = {IEEE Standards Association}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "consumerTech" isn't style-file defined
+--line 567 of file ../Back/myReferences.bib
+Warning--to sort, need author, organization, or key in 802.11
+Name 1 in "M. Zhou, Z. Tian, K. Xu, X. Yu, X. Hong, and H. Wu" has a comma at the end for entry Zhou
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "M. Zhou, Z. Tian, K. Xu, X. Yu, X. Hong, and H. Wu" for entry Zhou
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "M. Zhou, Z. Tian, K. Xu, X. Yu, X. Hong, and H. Wu" for entry Zhou
+while executing---line 1049 of file plain.bst
+Warning--empty journal in Das
+Warning--empty year in Das
+Name 1 in "M. Zhou, Z. Tian, K. Xu, X. Yu, X. Hong, and H. Wu" has a comma at the end for entry Zhou
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "M. Zhou, Z. Tian, K. Xu, X. Yu, X. Hong, and H. Wu" for entry Zhou
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "M. Zhou, Z. Tian, K. Xu, X. Yu, X. Hong, and H. Wu" for entry Zhou
+while executing---line 1090 of file plain.bst
+Warning--empty journal in RoseLocks
+You've used 16 entries,
+            2118 wiz_defined-function locations,
+            570 strings with 6602 characters,
+and the built_in function-call counts, 3554 in all, are:
+= -- 322
+> -- 155
+< -- 0
++ -- 64
+- -- 48
+* -- 175
+:= -- 607
+add.period$ -- 42
+call.type$ -- 16
+change.case$ -- 65
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 139
+empty$ -- 322
+format.name$ -- 48
+if$ -- 740
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 8
+newline$ -- 77
+num.names$ -- 26
+pop$ -- 121
+preamble$ -- 1
+purify$ -- 57
+quote$ -- 0
+skip$ -- 107
+stack$ -- 0
+substring$ -- 109
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 62
+warning$ -- 4
+while$ -- 27
+width$ -- 18
+write$ -- 144
+(There were 8 error messages)

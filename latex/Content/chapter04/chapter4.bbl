@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{antenna}
+Isolation between antennas of imt base stations in the land mobile service.
+\newblock Technical Report M.2244, International Telecommunication Union, 2011.
+
+\bibitem{RoseLocks}
+A.~Rose and B.~Ramsey.
+\newblock Picking bluetooth low energy locks from a quarter mile away.
+\newblock 2016.
+\newblock presented at DEF CON 24 {\em
+  (media.defcon.org/DEF\%20CON\%2024/DEF\%20CON\%2024\%20presentations/)}.
+
+\end{thebibliography}

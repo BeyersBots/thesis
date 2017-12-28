@@ -1,0 +1,168 @@
+\begin{thebibliography}{10}
+
+\bibitem{802.11}
+{\em Wireless LAN Medium Access Control, MAC, and Physical Layer, PHY,
+  Specification}.
+
+\bibitem{tcpdump}
+Tcpdump manual page, 2017.
+\newblock [Last accessed on December 8, 2017], Available at {\em
+  tcpdump.org/tcpdump\_man.html}.
+
+\bibitem{GuiterrezIndustrial}
+J.~Guiterrez~Del Arroyo and B.~Ramsey.
+\newblock Securing bluetooth low energy enabled inudstrial monitors.
+\newblock {\em Proceedings of the Twelfth International Conference on Cyber
+  Warfare and Security}, 2017.
+
+\bibitem{Atkinson}
+J.S Atkinson et~al.
+\newblock Your wifi is leaking: What do your mobile apps gossip about you?
+\newblock {\em Future Generation Computer Systems}, 2016.
+
+\bibitem{Badenhop}
+C.~Badenhop, J.~Fuller, J.~Hall, B.~Ramsey, and M.~Rice.
+\newblock Evaluating itu-t g.9959 based wireless systems used in critical
+  infrastructure assets.
+\newblock In {\em International Conference on Critical Infrastructure
+  Protection}. Springer International Publishing, 2015.
+
+\bibitem{sig4.0}
+Bluetooth SIG.
+\newblock {\em Specification of the Bluetooth System Core Version 4.0}, 2010.
+\newblock \\{\em
+  https://www.bluetooth.com/specifications/adopted-specifications/legacy-specifications}.
+
+\bibitem{sig4.2}
+Bluetooth SIG.
+\newblock {\em Specification of the Bluetooth System Core Version 4.2}, 2010.
+\newblock [Last accessed on August 30, 2017], {\em
+  www.bluetooth.com/specifications/bluetooth-core-specification}.
+
+\bibitem{Bonne}
+B.~Bonne, A.~Barzan, P.~Quax, and W.~Lamotte.
+\newblock Wifipi: Involuntary tracking of visitors at mass events.
+\newblock {\em 2013 IEEE 14th International Symposium on a World of Wireless,
+  Mobile and Multimedia Networks}, 2013.
+
+\bibitem{Das}
+A.~Das, P.~Pathak, C.~Chuah, and P.~Mohapatra.
+\newblock Uncovering privacy leakage in ble network traffic of wearable fitness
+  trackers.
+
+\bibitem{GutierrezMulti}
+J.~Gutierrez del Arroyo, J.~Bindewald, S.~Graham, , and M.~Rice.
+\newblock Enabling bluetooth low energy auditing through synchronized tracking
+  of multiple connections.
+\newblock {\em Proceedings of the Eleventh Annual IFIP WG 11.10 Conference on
+  Critical Infrastructure Protection}, 2017.
+
+\bibitem{Fawaz}
+K.~Fawaz and K.~Kim.
+\newblock Protecting privacy of ble device users this paper is included in the
+  proceedings of the protecting privacy of ble device users.
+\newblock {\em 25th USENIX Security Symposium}, 2016.
+
+\bibitem{Greenstein}
+B.~Greenstein, R.~Gummadi, J.~Pang, M.~Chen, T.~Kohno, S.~Seshan, and
+  D.~Wetherall.
+\newblock Can ferris bueller still have his day off? protecting privacy in the
+  wireless era.
+\newblock {\em Proceedings of 11th USENIX workshop on Hot Topics in Operating
+  Systems}, pages 1--6, 2007.
+
+\bibitem{rHeydon}
+R.~Heydon.
+\newblock {\em Bluetooth Low Energy: The Developer's Handbook}.
+\newblock Pearson Education, Inc., Crawfordsville, Indiana, 2013.
+
+\bibitem{Jourdois}
+S.~Jourdois.
+\newblock Btlejuice: Bluetooth smart (le) man-in-themiddle framework, 2016.
+\newblock Available at //{\em github.com/DigitalSecurity/btlejuice}.
+
+\bibitem{pyshark}
+KimiNewt.
+\newblock pyshark, 2017.
+\newblock Available at {\em https://github.com/KimiNewt/pyshark}.
+
+\bibitem{Konings}
+D.~Konings, A.~Budel, F.~Alam, and F.~Noble.
+\newblock Entity tracking within a zigbee based smart home.
+\newblock {\em Proceedings of 23rd International Conference on Mechatronics and
+  Machine Vision in Practice}, 2016.
+
+\bibitem{kurose}
+J.~Kurose and K.~Ross.
+\newblock {\em Computer Networking A Top-Down Approach Featuring the Internet}.
+\newblock Pearson Education, Inc., Crawfordsville, Indiana, 2017.
+
+\bibitem{Zhou}
+K.~Xu X. Yu X.~Hong M.~Zhou, Z.~Tian and H.~Wu.
+\newblock Scanme: Location tracking system in large-scale campus wi-fi
+  environment using unlabeled mobility map.
+\newblock {\em Expert Systems with Applications}, 41(7):3429--3443, 2014.
+
+\bibitem{Madrigal}
+C.~Madrigal.
+
+\bibitem{Ubertooth}
+M.~Ossman and D.~Spill.
+\newblock Project ubertooth: an open source 2.4 ghz wireless development
+  platform suitable for bluetooth experimentation, 2014.
+\newblock Available at \\{\em ubertooth.sourceforge.net}.
+
+\bibitem{Bluez}
+BlueZ Project.
+\newblock Bluez: official linux bluetooth protocol stack, 2016.
+\newblock Available at \\{\em bluez.org}.
+
+\bibitem{RoseTrack}
+A.~Rose, J.~Gutierrez del Arroyo, and B.~Ramsey.
+\newblock Bluefinder: A range-finding tool for bluetooth classic and low
+  energy.
+\newblock {\em Proceedings of the Twelfth International Conference on Cyber
+  Warfare and Security}, 2017.
+
+\bibitem{RoseLocks}
+A.~Rose and B.~Ramsey.
+\newblock Picking bluetooth low energy locks from a quarter mile away.
+\newblock 2016.
+\newblock presented at DEF CON 24 {\em
+  (media.defcon.org/DEF\%20CON\%2024/DEF\%20CON\%2024\%20presentations/)}.
+
+\bibitem{Sharma}
+H.~Sharma and S.~Sharma.
+\newblock A review of sensor networks: Technologies and applications.
+\newblock {\em Recent Advances in Engineering and Computational Sciences},
+  pages 6--8, 2014.
+
+\bibitem{Skoudis}
+E.~Skoudis.
+
+\bibitem{skoudisCounter}
+E.~Skoudis and T.~Liston.
+\newblock {\em Counter Hack Reloaded: A Step-by-Step Guide to Computer Attacks
+  and Effective Defenses}.
+\newblock Pearson Education, Inc., Upper Saddle River, NJ, 2006.
+
+\bibitem{Slawomir}
+J.~Slawomir.
+\newblock A node.js package for ble using man-in-the-middle and other attacks,
+  2016.
+\newblock Available at //{\em github.com/securing/gattacker}.
+
+\bibitem{scapy}
+G.~Valadon and P.~Lalet.
+\newblock Scapy: the python-based interactive packet manipulation program and
+  library, 2016.
+\newblock Available at {\em www.secdev.org/projects/scapy}.
+
+\bibitem{Versichele}
+M.~Versichele, L.~de~Groote, M.~Claeys Bouuaert, T.~Neutens, I.~Moerman, and
+  N.~Van de~Weghe.
+\newblock Pattern mining in tourist attraction visits through association rule
+  learning on bluetooth tracking data: A case study of ghent, belgium.
+\newblock {\em Tourism Management}, 44:67--81, 2014.
+
+\end{thebibliography}

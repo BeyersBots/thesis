@@ -1,0 +1,512 @@
+log_file_1 = 'log_2017-08-23_07_00.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+date = parse_datetime(log_plot_1$Time)
+date
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+View(log_plot)
+myCols = c("Time", "Device", "Value", "Title")
+#
+log_file_1 = 'log_2017-08-23_07_00.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), "NA", "NA", "NA"), na = ".")
+myCols = c("Time", "Device", "Value", "Title")
+#
+log_file_1 = 'log_2017-08-23_07_00.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), NA, NA, NA), na = ".")
+myCols = c("Time", "Device", "Value", "Title")
+#
+log_file_1 = 'log_2017-08-23_07_00.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = NA, Destination = NA, Value = NA), na = ".")
+myCols = c("Time", "Device", "Value", "Title")
+#
+log_file_1 = 'log_2017-08-23_07_00.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+pch_site <- c(16,18)[factor(data$Title)]
+plot <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot)
+#plot <- plot_ly(data, x=~Time, y=~Value, color=~Title, shape=~Title, text = ~paste("Device: ", Device), type = "scatter")
+#plot
+View(log_plot_1_final)
+View(log_plot_1_final)
+myCols = c("Time", "Device", "Value", "Title")
+#
+log_file_1 = 'log_2017-08-23_07_00.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+myCols = c("Time", "Device", "Value", "Title")
+#
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data_1 <- rbind(log_plot_1_final, event_plot_1_final)
+pch_site <- c(16,18)[factor(data$Title)]
+plot_1 <- ggplot(data) + geom_point(mapping = aes(, Value, color=Title, shape=Title, size = Title, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1)
+myCols = c("Time", "Device", "Value", "Title")
+#
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data_1 <- rbind(log_plot_1_final, event_plot_1_final)
+pch_site <- c(16,18)[factor(data$Title)]
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1)
+#plot <- plot_ly(data, x=~Time, y=~Value, color=~Title, shape=~Title, text = ~paste("Device: ", Device), type = "scatter")
+#plot
+myCols = c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data_1 <- rbind(log_plot_1_final, event_plot_1_final)
+pch_site <- c(16,18)[factor(data$Title)]
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1)
+#plot <- plot_ly(data, x=~Time, y=~Value, color=~Title, shape=~Title, text = ~paste("Device: ", Device), type = "scatter")
+#plot
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data_1 <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1)
+#plot <- plot_ly(data, x=~Time, y=~Value, color=~Title, shape=~Title, text = ~paste("Device: ", Device), type = "scatter")
+#plot
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4)) + coord_fixed(2)
+plot_1
+ggplotly(plot_1)
+p_build <- plotly_build(plot_1)
+p_build$layout$height = 600
+p_build$layout$width = 1200
+p_build
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+plot_1
+ggplotly(plot_1, tooltip = NULL)
+p_build <- plotly_build(plot_1)
+p_build$layout$height = 600
+p_build$layout$width = 1200
+p_build
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+plot_1
+ggplotly(plot_1, tooltip = c('text','label'))
+p_build <- plotly_build(plot_1)
+p_build$layout$height = 600
+p_build$layout$width = 1200
+p_build
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+log_plot_1_final
+log_plot_1_final$Time %in% event_plot_1_final%Time
+log_plot_1_final$Time
+event_plot_1_final%Time
+event_plot_1_final$Time
+log_plot_1_final$Time %in% event_plot_1_final$Time
+count(log_plot_1_final$Time %in% event_plot_1_final$Time = FALSE)
+count(log_plot_1_final$Time %in% event_plot_1_final$Time == FALSE)
+occurences<-table(unlist(log_plot_1_final$Time %in% event_plot_1_final$Time))
+occurences
+event_plot_1_final$Time %in% log_plot_1_final$Time
+event_plot_1_final$Time
+event_plot_1_final$Time + 60
+event_time_temp <- rbind(event_plot_1_final$Time + 60, event_plot_1_final$Time, event_plot_1_final$Time - 60)
+event_time_temp
+View(event_time_temp)
+event_time_temp <- rbind(event_plot_1_final$Time + 60, event_plot_1_final$Time)
+event_plot_1_final$Time
+event_time <- event_plot_1_final$Time
+event_time
+event_time_temp <- rbind(event_time + 60, event_time)
+event_time + 60
+before <- event_time + 60
+event_time_temp <- rbind(before, event_time)
+before
+event_time_temp <- merge(before, event_time)
+before
+View(event_plot_1_final)
+View(before)
+before
+View(event_time)
+before <- event_plot_1_final$Time + 60
+View(log_plot_1_final)
+View(log_plot_1_final)
+temp <- c(before, event_time, event_time +60)
+temp
+event_plot_1_final$Time %in% temp
+log_plot_1_final$Time %in% temp
+before
+event_time
+event_time + 60
+temp
+temp = data.fram(event_time = event_time, before = before)
+temp = data.frame(event_time = event_time, before = before)
+temp
+temp <- as.Date(union(before, event_time, event_time + 60))
+temp <- as.Date(union(before, event_time, event_time + 60), origin = "1970-01-01")
+unique(c(before, event_time, event_time +60))
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M", tz="EDT"), Device = col_character(), Event = col_character()),  na = ".")
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %zAmerica/Chicago"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %zAmerica/Chicago"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M%zAmerica/Chicago")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %zAmerica/Chicago"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %zAmerica/Chicago")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+View(newData)
+View(log_plot_1_final)
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+View(log_plot_1_final)
+View(log_plot_1_final)
+View(log_plot_1_final)
+temp <- unique(c(before, event_time, event_time +60))
+attr(temp, "tzone") <- "UTC"
+temp
+event_plot_1_final$Time
+event_plot_1_final$Time %in% temp
+log_plot_1_final %in% temp
+log_plot_1_final$Time %in% temp
+log_plot_1_final$Time
+temp <- c(before, event_time, event_time +60)
+attr(temp, "tzone") <- "UTC"
+log_plot_1_final$Time %in% temp
+temp
+before
+event_time
+after <- before
+before <- event_time - 60
+before
+event_time
+after
+temp <- c(before, event_time, after)
+attr(temp, "tzone") <- "UTC"
+log_plot_1_final$Time %in% temp
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+temp_log_time <- c(log_plot_1$Time - 60, log_plot_1$Time, log_plot_1$Time + 60)
+temp_log_time
+attr(temp_log_time, "tzone") <- "UTC"
+temp<-
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+temp_log_time <- c(log_plot_1$Time - 60, log_plot_1$Time, log_plot_1$Time + 60)
+temp_log_time
+attr(temp_log_time, "tzone") <- "UTC"
+temp_log_time
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %zEDT"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %zEDT")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %ZAmerica/Chicago"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %ZAmerica/Chicago")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %ZAmerica/Chicago"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+log_plot_1$Time
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %ZAmerica/Chicago")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M", locale=locale(tz= "US/Eastern")), Device = col_character(), Event = col_character()),  na = ".")
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+locale=locale(tz="US/Eastern")
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+log_plot_1$Time
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %ZAmerica/Chicago")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+temp_log_time <- c(log_plot_1$Time - 60, log_plot_1$Time, log_plot_1$Time + 60)
+temp_log_time
+attr(temp_log_time, "tzone") <- "UTC"
+temp_log_time
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-23.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+log_plot_1$Time
+event_file_1 = 'event_id_2017-08-23.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M %ZAmerica/Chicago")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+temp_log_time <- c(log_plot_1$Time - 60, log_plot_1$Time, log_plot_1$Time + 60)
+temp_log_time
+attr(temp_log_time, "tzone") <- "UTC"
+temp_log_time
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(plotly)
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-16.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M:%S"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+log_plot_1$Time
+event_file_1 = 'event_id_2017-08-16.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M:%S")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+myCols <- c("Time", "Device", "Value", "Title")
+log_file_1 = 'log_2017-08-16.csv'
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M:%S"), Device = col_character(), Event = col_character()),  na = ".")
+log_plot_1$Value <- rep(1, nrow(log_plot_1))
+log_plot_1$Title <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+log_plot_1$Time
+event_file_1 = 'event_id_2017-08-16.csv'
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device",  "Destination", "Value"), col_types = cols(Time = col_datetime("%m/%d/%y %H:%M:%S")), na = ".")
+event_plot_1$Title <- rep("IoTCIT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+data <- rbind(log_plot_1_final, event_plot_1_final)
+plot_1 <- ggplot(data) + geom_point(mapping = aes(Time, Value, color=Title, shape=Title, size = Title, label = Time, text = paste("Device: ", Device))) + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4))
+ggplotly(plot_1, tooltip = c('text','label'))
+occurrences <-table(unlist(event_plot_1_final$Time %in% log_plot_1_final$Time))
+true_positives <- occurrences[2]
+false_positives <- occurrences[1]
+true_positives
+false_positives
+false_negatives <- table(unlist(log_plot_1_final$Time %in% event_plot_1_final$Time))[1]
+false_negatives
+events <- nrow(log_plot_1_final)
+events
+#temp_log_time <- c(log_plot_1$Time - 60, log_plot_1$Time, log_plot_1$Time + 60)
+#temp_log_time
+#attr(temp_log_time, "tzone") <- "UTC"
+#temp_log_time
+compare(event_plot_1_final$Time, log_plot_1_final$Time, allowAll=TRUE)
+library(compare)
+install.package("compare")
+install.packages("compare")
+library(compare)
+compare(event_plot_1_final$Time, log_plot_1_final$Time, allowAll=TRUE)
+all.equal(event_plot_1_final$Time, log_plot_1_final$Time)
+case0902 = transform(case0902, logbrain = log(Brain))
+require(mosaic)
+require(Sleuth3)
+case0902 = transform(case0902, logbrain = log(Brain))
+case0902 = transform(case0902, logbody = log(Body))
+case0902 = transform(case0902, loggest = log(Gestation))
+case0902 = transform(case0902, loglitter = log(Litter))
+pairs(~logbrain + logbody + loggest + loglitter, upper.panel = NULL, row1attop = TRUE, data = case0902)
+brain.lm <-lm(logbrain~logbody+loggest+loglitter, data=case0902)
+summary(brain.lm)
+panel.lm = function(x,y, col=par("col"), bg = NA, pch = par("pch"), cex = 1, col.lm="red",...)
+{
+points(x,y,pch=pch,col=col,bg=bg,cex=cex)
+ok = is.finite(x) & is.finite(y)
+if (any(ok))
+abline(lm(y[ok]~x[ok]))
+}
+pairs(~logbrain + logbody + loggest + loglitter, lower.panel = panel.smooth, upper.panel = panel.lm, data = case0902)
+brain2.lm <- lm(logbrain~logbody+loggest+Litter, data = case0902)
+summary(brain2.lm)
+pairs(~logbrain + logbody + loggest + Litter, lower.panel = panel.smooth, upper.panel = panel.lm, data = case0902)
+log(case0902$Brain)
+log(case0902$Species)
+case0902$Species

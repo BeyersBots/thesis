@@ -1,0 +1,6 @@
+#!/bin/bash
+#Initialize bluetooth service and start gat
+
+wifi_timing.py -p wifi_23Aug17.pcap & 
+ble_timing.py -c btle_23Aug17.pcap &
+wait

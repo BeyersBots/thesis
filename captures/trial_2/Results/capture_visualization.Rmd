@@ -1,0 +1,236 @@
+---
+title: "capture_visualization"
+author: "Steven"
+date: "7/20/2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(plotly)
+library(scales)
+setwd("~/Documents_not_for_cloud/thesis/captures/trial_2/Results")
+## Gives count, mean, standard deviation, standard error of the mean, and confidence interval (default 95%).
+##   data: a data frame.
+##   measurevar: the name of a column that contains the variable to be summariezed
+##   groupvars: a vector containing names of columns that contain grouping variables
+##   na.rm: a boolean that indicates whether to ignore NA's
+##   conf.interval: the percent range of the confidence interval (default is 95%)
+##   http://www.cookbook-r.com/Graphs/Plotting_means_and_error_bars_(ggplot2)/
+summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
+                      conf.interval=.95, .drop=TRUE) {
+    library(plyr)
+
+    # New version of length which can handle NA's: if na.rm==T, don't count them
+    length2 <- function (x, na.rm=FALSE) {
+        if (na.rm) sum(!is.na(x))
+        else       length(x)
+    }
+
+    # This does the summary. For each group's data frame, return a vector with
+    # N, mean, and sd
+    datac <- ddply(data, groupvars, .drop=.drop,
+      .fun = function(xx, col) {
+        c(N    = length2(xx[[col]], na.rm=na.rm),
+          mean = mean   (xx[[col]], na.rm=na.rm),
+          sd   = sd     (xx[[col]], na.rm=na.rm)
+        )
+      },
+      measurevar
+    )
+
+    # Rename the "mean" column    
+    datac <- rename(datac, c("mean" = measurevar))
+
+    datac$se <- datac$sd / sqrt(datac$N)  # Calculate standard error of the mean
+
+    # Confidence interval multiplier for standard error
+    # Calculate t-statistic for confidence interval: 
+    # e.g., if conf.interval is .95, use .975 (above/below), and use df=N-1
+    ciMult <- qt(conf.interval/2 + .5, datac$N-1)
+    datac$ci <- datac$se * ciMult
+
+    return(datac)
+}
+```
+
+# Day 1
+```{r}
+log_file_1 = 'logs_16Aug17.csv'
+event_file_1 = 'events_16Aug17.csv'
+
+myCols <- c("Time", "Device", "Event", "Data_Source")
+
+log_plot_1 <- read_csv(log_file_1, col_names = c("Time", "Device", "Event"), na = ".")
+log_plot_1$Data_Source <- rep("Log", nrow(log_plot_1))
+log_plot_1_final <- log_plot_1[myCols]
+
+event_plot_1 <- read_csv(event_file_1, col_names = c("Time", "Device", "Event"), na = ".")
+event_plot_1$Data_Source <- rep("CITIoT", nrow(event_plot_1))
+event_plot_1_final <- event_plot_1[myCols]
+
+data_1 <- rbind(log_plot_1_final, event_plot_1_final)
+data_1$Time <- as.POSIXct(data_1$Time, format = "%m/%d/%y %H:%M", tz = "America/New_York")
+min(data_1$Time)
+date_1 <- format(min(data_1$Time), '%d %b %y')
+
+plot_1 <- ggplot(data_1) + aes(Time, Event, color=Data_Source, shape=Data_Source, size = Data_Source, label = Time, text = paste("Device: ", Device)) + geom_point() + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4)) + ggtitle(date_1) + labs( x= "Time (minutes)", y = "Event") + theme(axis.text.y=element_blank())
+
+ggplotly(plot_1 + scale_x_datetime(breaks = date_breaks("5 min"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# ---
+```{r}
+ggplotly(plot_1 + scale_x_datetime(breaks = date_breaks("1 hour"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# Day 2
+```{r}
+log_file_2 = 'logs_22Aug17.csv'
+event_file_2 = 'events_22Aug17.csv'
+
+myCols <- c("Time", "Device", "Event", "Data_Source")
+
+log_plot_2 <- read_csv(log_file_2, col_names = c("Time", "Device", "Event"), na = ".")
+log_plot_2$Data_Source <- rep("Log", nrow(log_plot_2))
+log_plot_2_final <- log_plot_2[myCols]
+
+event_plot_2 <- read_csv(event_file_2, col_names = c("Time", "Device", "Event"), na = ".")
+event_plot_2$Data_Source <- rep("CITIoT", nrow(event_plot_2))
+event_plot_2_final <- event_plot_2[myCols]
+
+data_2 <- rbind(log_plot_2_final, event_plot_2_final)
+data_2$Time <- as.POSIXct(data_2$Time, format = "%m/%d/%y %H:%M", tz = "America/New_York")
+min(data_2$Time)
+date_2 <- format(min(data_2$Time), '%d %b %y')
+
+plot_2 <- ggplot(data_2) + aes(Time, Event, color=Data_Source, shape=Data_Source, size = Data_Source, label = Time, text = paste("Device: ", Device)) + geom_point() + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4)) + ggtitle(date_2) + labs( x= "Time (minutes)", y = "Event") + theme(axis.text.y=element_blank())
+
+ggplotly(plot_2 + scale_x_datetime(breaks = date_breaks("5 min"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# ---
+```{r}
+ggplotly(plot_2 + scale_x_datetime(breaks = date_breaks("1 hour"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# Day 3
+```{r}
+log_file_3 = 'logs_23Aug17.csv'
+event_file_3 = 'events_23Aug17.csv'
+
+myCols <- c("Time", "Device", "Event", "Data_Source")
+
+log_plot_3 <- read_csv(log_file_3, col_names = c("Time", "Device", "Event"), na = ".")
+log_plot_3$Data_Source <- rep("Log", nrow(log_plot_3))
+log_plot_3_final <- log_plot_3[myCols]
+
+event_plot_3 <- read_csv(event_file_3, col_names = c("Time", "Device", "Event"), na = ".")
+event_plot_3$Data_Source <- rep("CITIoT", nrow(event_plot_3))
+event_plot_3_final <- event_plot_3[myCols]
+
+data_3 <- rbind(log_plot_3_final, event_plot_3_final)
+data_3$Time <- as.POSIXct(data_3$Time, format = "%m/%d/%y %H:%M", tz = "America/New_York")
+min(data_3$Time)
+date_3 <- format(min(data_3$Time), '%d %b %y')
+
+plot_3 <- ggplot(data_3) + aes(Time, Event, color=Data_Source, shape=Data_Source, size = Data_Source, label = Time, text = paste("Device: ", Device)) + geom_point() + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4)) + ggtitle(date_3) + labs( x= "Time (minutes)", y = "Event") + theme(axis.text.y=element_blank())
+
+ggplotly(plot_3 + scale_x_datetime(breaks = date_breaks("30 min"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# ---
+```{r}
+ggplotly(plot_3 + scale_x_datetime(breaks = date_breaks("1 hour"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# Day 4
+```{r}
+log_file_4 = 'logs_25Aug17.csv'
+event_file_4 = 'events_25Aug17.csv'
+
+myCols <- c("Time", "Device", "Event", "Data_Source")
+
+log_plot_4 <- read_csv(log_file_4, col_names = c("Time", "Device", "Event"), na = ".")
+log_plot_4$Data_Source <- rep("Log", nrow(log_plot_4))
+log_plot_4_final <- log_plot_4[myCols]
+
+event_plot_4 <- read_csv(event_file_4, col_names = c("Time", "Device", "Event"), na = ".")
+event_plot_4$Data_Source <- rep("CITIoT", nrow(event_plot_4))
+event_plot_4_final <- event_plot_4[myCols]
+
+data_4 <- rbind(log_plot_4_final, event_plot_4_final)
+data_4$Time <- as.POSIXct(data_4$Time, format = "%m/%d/%y %H:%M", tz = "America/New_York")
+min(data_4$Time)
+date_4 <- format(min(data_4$Time), '%d %b %y')
+
+plot_4 <- ggplot(data_4) + aes(Time, Event, color=Data_Source, shape=Data_Source, size = Data_Source, label = Time, text = paste("Device: ", Device)) + geom_point() + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4)) + ggtitle(date_4) + labs( x= "Time (minutes)", y = "Event") + theme(axis.text.y=element_blank())
+
+ggplotly(plot_4 + scale_x_datetime(breaks = date_breaks("30 min"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# ---
+```{r}
+ggplotly(plot_4 + scale_x_datetime(breaks = date_breaks("1 hour"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# Day 5
+```{r}
+log_file_5 = 'logs_26Aug17.csv'
+event_file_5 = 'events_26Aug17.csv'
+
+myCols <- c("Time", "Device", "Event", "Data_Source")
+
+log_plot_5 <- read_csv(log_file_5, col_names = c("Time", "Device", "Event"), na = ".")
+log_plot_5$Data_Source <- rep("Log", nrow(log_plot_5))
+log_plot_5_final <- log_plot_5[myCols]
+
+event_plot_5 <- read_csv(event_file_5, col_names = c("Time", "Device", "Event"), na = ".")
+event_plot_5$Data_Source <- rep("CITIoT", nrow(event_plot_5))
+event_plot_5_final <- event_plot_5[myCols]
+
+data_5 <- rbind(log_plot_5_final, event_plot_5_final)
+data_5$Time <- as.POSIXct(data_5$Time, format = "%m/%d/%y %H:%M", tz = "America/New_York")
+min(data_5$Time)
+date_5 <- format(min(data_5$Time), '%d %b %y')
+
+plot_5 <- ggplot(data_5) + aes(Time, Event, color=Data_Source, shape=Data_Source, size = Data_Source, label = Time, text = paste("Device: ", Device)) + geom_point() + scale_shape_manual(values=c(8, 1)) + scale_size_manual(values=c(2, 4)) + ggtitle(date_5) + labs( x= "Time (minutes)", y = "Event") + theme(axis.text.y=element_blank())
+
+ggplotly(plot_5 + scale_x_datetime(breaks = date_breaks("30 min"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# ---
+```{r}
+ggplotly(plot_5 + scale_x_datetime(breaks = date_breaks("1 hour"), labels = date_format ("%H%M")), tooltip = c('text','label'))
+```
+
+# Data
+```{r}
+ble_results <- read.csv("BLE_Results.csv")
+ble_results$Type <- "BLE"
+wifi_results <- read.csv("WIFI_Results.csv")
+wifi_results$Type <- "WIFI"
+total_results <- read.csv("TOTAL_results.csv")
+total_results$Type <- "TOTAL"
+combined_results = rbind(wifi_results, ble_results, total_results)
+ggplot(combined_results, aes(x=Type,y=EISR)) + geom_boxplot() + geom_jitter(alpha=.1, shape=16, size=.5) + labs(size=4, x ="Type", y="Success Rate") + theme_bw() + theme(axis.text=element_text(size=12), axis.title=element_text(size=14,face="bold"))
+bleESIR.SE = summarySE(ble_results, measurevar = "EISR", groupvars = c("Type"), na.rm=TRUE)
+wifiEISR.SE = summarySE(wifi_results, measurevar = "EISR", groupvars = c("Type"))
+totalEISR.SE = summarySE(total_results, measurevar = "EISR", groupvars = c("Type"), na.rm=TRUE)
+combinedEISR.SE = rbind(bleESIR.SE, wifiEISR.SE, totalEISR.SE)
+combinedEISR.SE
+bleEIFP.SE = summarySE(ble_results, measurevar = "EIFP", groupvars = c("Type"), na.rm=TRUE)
+wifiEIFP.SE = summarySE(wifi_results, measurevar = "EIFP", groupvars = c("Type"))
+totalEIFP.SE = summarySE(total_results, measurevar = "EIFP", groupvars = c("Type"), na.rm=TRUE)
+combinedEIFP.SE = rbind(bleEIFP.SE, wifiEIFP.SE, totalEIFP.SE)
+combinedEIFP.SE
+bleEIFN.SE = summarySE(ble_results, measurevar = "EIFN", groupvars = c("Type"), na.rm=TRUE)
+wifiEIFN.SE = summarySE(wifi_results, measurevar = "EIFN", groupvars = c("Type"))
+totalEIFN.SE = summarySE(total_results, measurevar = "EIFN", groupvars = c("Type"), na.rm=TRUE)
+combinedEIFN.SE = rbind(bleEIFN.SE, wifiEIFN.SE, totalEIFN.SE)
+combinedEIFN.SE
+```
+

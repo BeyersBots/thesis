@@ -1,0 +1,46 @@
+#!/bin/bash
+# Ubertooth scan with three ubertooth ones
+# Each ubertooth will be listening for connection events on one of three
+# advertisement channels (37, 38, 39)
+# will save the combined pcap into a file 
+
+function pause(){
+   read -p "$*"
+}
+
+echo "Type desired output name for PCAP (no spaces), followed by [ENTER]:"
+
+read name
+
+# If the files exist, delete them
+if [ -e cap0.pcap ]; then
+	rm cap0.pcap
+fi
+if [ -e cap1.pcap ]; then 
+	rm cap1.pcap
+fi
+if [ -e cap2.pcap ]; then 
+	rm cap2.pcap
+fi
+# if the output capture filename already exists, ask to overwrite
+if [ -e $name.pcap ]; then 
+	read -p "File already exists, overwrite (y/n)? : " -n 1 -r
+	echo
+	if [[ $REPLY =~ ^[Yy]$ ]]
+		then rm $name.pcap; echo 'removed'
+	else
+		[[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+	fi
+		
+fi
+# start BLE capture on 3 Ubertooth One sniffers with each set to follow connections, on a different advertising channel
+# and ouptut files to a capture
+ubertooth-btle -f -U0 -A37 -qcap0.pcap & ubertooth-btle -f -U1 -A38 -qcap1.pcap & ubertooth-btle -f -U2 -A39 -qcap2.pcap
+
+pause 'Press [Enter] key to continue...'
+
+# merge the captures to one file with the name provided by the user
+mergecap cap0.pcap cap1.pcap cap2.pcap -w $name.pcap
+rm cap0.pcap
+rm cap1.pcap
+rm cap2.pcap

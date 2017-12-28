@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: myFirstBibTex.aux
+The style file: plain.bst
+Database file #1: Back/myReferences.bib
+You're missing a field part---line 55 of file Back/myReferences.bib
+ :   year = 
+ :          ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 95 of file Back/myReferences.bib
+ :   year = 
+ :          ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in AFITStyle
+Warning--empty author in AFITStyle
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            517 strings with 4304 characters,
+and the built_in function-call counts, 682 in all, are:
+= -- 66
+> -- 15
+< -- 0
++ -- 7
+- -- 4
+* -- 42
+:= -- 119
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 31
+empty$ -- 66
+format.name$ -- 4
+if$ -- 143
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 17
+num.names$ -- 4
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 18
+stack$ -- 0
+substring$ -- 36
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 10
+warning$ -- 2
+while$ -- 5
+width$ -- 4
+write$ -- 33
+(There were 2 error messages)

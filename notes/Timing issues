@@ -1,0 +1,144 @@
+gimli@gimli:~/Documents/thesis/captures/trial_2/22Aug17$ time ./timing
+packet time error:  1863120
+last valid time:  -1503430178.000020000
+current pckt time:  1503430178.015387000
+Total number of packets classifier:  673471
+Total time classifier:  1.37932085991
+Normalized total time classifier per 25000 packets:  0.0512019396496
+Total time class:  0.782948970795
+Normalized time class:  0.0466142288076
+Total time network mapper:  0.123587608337
+Normalized time network mapper:  0.0221379944019
+Total number of packets preprocessor:  2259264
+Total time preprocessor:  2012.61000609
+Normalized total preprocessor time per 25000 packets:  22.2706377618
+Total time mac track:  246.511488676
+Normalized time mac track:  21.3060682482
+Total time preproc:  87.1686871052
+Normalizedtime preproc:  19.5428524225
+Finish preprocessor: 2013.98996687
+total number of packets:  5395885
+Total time:  5373.91108298
+Normalized total time per 25000 packets:  24.8981913207
+
+real	89m34.285s
+user	122m15.372s
+sys	0m26.670s
+gimli@gimli:~/Documents/thesis/captures/trial_2/22Aug17$ cd ../23Aug17/
+gimli@gimli:~/Documents/thesis/captures/trial_2/23Aug17$ time ./timing
+Total number of packets classifier:  696540
+Total time classifier:  1.39325404167
+Normalized total time classifier per 25000 packets:  0.0500062466503
+Total time class:  0.810498476028
+Normalized time class:  0.0461200587245
+Total time network mapper:  0.108275413513
+Normalized time network mapper:  0.0209160839881
+Total number of packets preprocessor:  2309436
+Total time preprocessor:  2092.17105603
+Normalized total preprocessor time per 25000 packets:  22.648073556
+Total time mac track:  259.65063405
+Normalized time mac track:  21.6365735156
+Total time preproc:  93.4397842884
+Normalizedtime preproc:  19.8373154959
+Finish preprocessor: 2093.56483793
+total number of packets:  2271675
+Total time:  2277.59120917
+Normalized total time per 25000 packets:  25.0651084461
+
+real	37m57.949s
+user	72m17.487s
+sys	0m17.535s
+gimli@gimli:~/Documents/thesis/captures/trial_2/23Aug17$ cd ../25Aug17/
+gimli@gimli:~/Documents/thesis/captures/trial_2/25Aug17$ time ./timing
+packet time error:  356688
+last valid time:  1503664717.998915000
+current pckt time:  1503683164.744066000
+packet time error:  3624440
+last valid time:  1503683786.995365000
+current pckt time:  1503702233.744062000
+packet time error:  6563000
+last valid time:  1503693436.992278000
+current pckt time:  1503711883.744064000
+total number of packets:  6417323
+Total time:  6637.30845284
+Normalized total time per 25000 packets:  25.8569985212
+packet time error:  6763043
+last valid time:  1503694191.953368000
+current pckt time:  1503712638.744069000
+Total number of packets classifier:  901232
+Total time classifier:  1.82433795929
+Normalized total time classifier per 25000 packets:  0.0506067793667
+Total time class:  0.787061691284
+Normalized time class:  0.046407294474
+Total time network mapper:  0.151388406754
+Normalized time network mapper:  0.0287738414749
+Total number of packets preprocessor:  8304773
+Total time preprocessor:  8205.05369091
+Normalized total preprocessor time per 25000 packets:  24.6998132607
+Total time mac track:  1004.21115303
+Normalized time mac track:  23.6929652545
+Total time preproc:  334.465765476
+Normalizedtime preproc:  21.6768192757
+Finish preprocessor: 8206.87899399
+
+real	136m47.246s
+user	245m44.062s
+sys	0m55.629s
+gimli@gimli:~/Documents/thesis/captures/trial_2/25Aug17$ cd ../26Aug17/
+gimli@gimli:~/Documents/thesis/captures/trial_2/26Aug17$ ld
+ld: no input files
+gimli@gimli:~/Documents/thesis/captures/trial_2/26Aug17$ ls
+Archive  btle_26Aug17.pcap  Logs  Results  timing  wifi_26Aug17.pcap
+gimli@gimli:~/Documents/thesis/captures/trial_2/26Aug17$ time ./timing
+packet time error:  1209692
+last valid time:  -1503759209.000004000
+current pckt time:  1503759209.010771000
+packet time error:  1313260
+last valid time:  -1503759538.000014000
+current pckt time:  1503759538.004637000
+packet time error:  1847760
+last valid time:  -1503761827.000019000
+current pckt time:  1503761827.007709000
+packet time error:  2916959
+last valid time:  -1503767038.000019000
+current pckt time:  1503767038.002592000
+packet time error:  2955772
+last valid time:  -1503767323.000007000
+current pckt time:  1503767323.011295000
+packet time error:  3812528
+last valid time:  -1503769750.000019000
+current pckt time:  1503769750.000021000
+packet time error:  4625927
+last valid time:  -1503774471.000008000
+current pckt time:  1503774471.022035000
+packet time error:  4731952
+last valid time:  -1503775050.000005000
+current pckt time:  1503775050.002066000
+total number of packets:  4484828
+Total time:  4609.97810698
+Normalized total time per 25000 packets:  25.697630472
+packet time error:  5498959
+last valid time:  -1503779025.000013000
+current pckt time:  1503779025.004625000
+packet time error:  6303205
+last valid time:  -1503782451.000011000
+current pckt time:  1503782451.000024000
+Total number of packets classifier:  784476
+Total time classifier:  4.61129307747
+Normalized total time classifier per 25000 packets:  0.146954561945
+Total time class:  1.62982416153
+Normalized time class:  0.141697864087
+Total time network mapper:  0.16495013237
+Normalized time network mapper:  0.0950146631618
+Total number of packets preprocessor:  6660734
+Total time preprocessor:  6484.42101383
+Normalized total preprocessor time per 25000 packets:  24.3382373993
+Total time mac track:  748.571672678
+Normalized time mac track:  23.3795055857
+Total time preproc:  255.434303522
+Normalizedtime preproc:  21.5285933245
+Finish preprocessor: 6489.03318787
+
+real	108m9.390s
+user	180m11.768s
+sys	0m43.346s

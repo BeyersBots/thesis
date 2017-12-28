@@ -1,0 +1,68 @@
+-- Logs begin at Sat 2017-08-26 09:38:14 EDT. --
+Aug 26 09:38:42 pi homebridge[711]: └────────────┘
+Aug 26 09:38:42 pi homebridge[711]: [8/26/2017, 9:38:42 AM] Homebridge is running on port 51826.
+Aug 26 09:38:42 pi homebridge[711]: [8/26/2017, 9:38:42 AM] [Office 1] Online: NetCam Motion,smbeyer8 [EC1A59E4FD40]
+Aug 26 09:38:42 pi homebridge[711]: [8/26/2017, 9:38:42 AM] [Office 1] Online: Mini [6038E0EE7CE4]
+Aug 26 09:38:42 pi homebridge[711]: [8/26/2017, 9:38:42 AM] [Office 1] Online: Motion [EC1A59F1FB20]
+Aug 26 09:38:42 pi homebridge[711]: [8/26/2017, 9:38:42 AM] [Office 1] Online: Switch 4 [149182C86A08]
+Aug 26 09:38:42 pi homebridge[711]: [8/26/2017, 9:38:42 AM] [Office 1] Online: Switch 2 [B4750E0D9464]
+Aug 26 09:38:42 pi homebridge[711]: [8/26/2017, 9:38:42 AM] [Office 1] Online: Switch 3 [94103E2B7A54]
+Aug 26 09:38:43 pi homebridge[711]: [8/26/2017, 9:38:43 AM] [Office 1] Online: Switch 1 [B4750E0D33D4]
+Aug 26 09:39:12 pi homebridge[711]: [8/26/2017, 9:39:12 AM] [Office 1] Online: Insight [14918224DD34]
+Aug 26 09:46:32 pi homebridge[711]: [8/26/2017, 9:46:32 AM] [Office 1] Mini - Set state: On
+Aug 26 09:49:13 pi homebridge[711]: [8/26/2017, 9:49:13 AM] [Office 1] Switch 3 - Set state: On
+Aug 26 09:50:14 pi homebridge[711]: [8/26/2017, 9:50:14 AM] [Office 1] Insight - Set state: On
+Aug 26 09:50:18 pi homebridge[711]: [8/26/2017, 9:50:18 AM] [Office 1] Insight - Outlet In Use: Yes
+Aug 26 09:51:08 pi homebridge[711]: [8/26/2017, 9:51:08 AM] [Office 1] Switch 2 - Set state: On
+Aug 26 09:53:21 pi homebridge[711]: [8/26/2017, 9:53:21 AM] [Office 1] Switch 4 - Set state: On
+Aug 26 09:55:07 pi homebridge[711]: [8/26/2017, 9:55:07 AM] [Office 1] Switch 1 - Set state: On
+Aug 26 09:56:13 pi homebridge[711]: [8/26/2017, 9:56:13 AM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Detected
+Aug 26 09:56:30 pi homebridge[711]: [8/26/2017, 9:56:30 AM] [Office 1] NetCam Motion,smbeyer8 - no motion timer started [60 secs]
+Aug 26 09:57:30 pi homebridge[711]: [8/26/2017, 9:57:30 AM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Clear; no motion timer completed
+Aug 26 10:00:16 pi homebridge[711]: [8/26/2017, 10:00:16 AM] [Office 1] Motion - Motion Sensor: Detected
+Aug 26 10:00:19 pi homebridge[711]: [8/26/2017, 10:00:19 AM] [Office 1] Motion - no motion timer started [60 secs]
+Aug 26 10:01:19 pi homebridge[711]: [8/26/2017, 10:01:19 AM] [Office 1] Motion - Motion Sensor: Clear; no motion timer completed
+Aug 26 10:01:24 pi homebridge[711]: [8/26/2017, 10:01:24 AM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Detected
+Aug 26 10:01:30 pi homebridge[711]: [8/26/2017, 10:01:30 AM] [Office 1] NetCam Motion,smbeyer8 - no motion timer started [60 secs]
+Aug 26 10:02:30 pi homebridge[711]: [8/26/2017, 10:02:30 AM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Clear; no motion timer completed
+Aug 26 10:04:39 pi homebridge[711]: [8/26/2017, 10:04:39 AM] [Office 1] Switch 2 - Set state: Off
+Aug 26 10:05:17 pi homebridge[711]: [8/26/2017, 10:05:17 AM] [Office 1] Insight - Set state: Off
+Aug 26 10:05:17 pi homebridge[711]: [8/26/2017, 10:05:17 AM] [Office 1] Insight - Outlet In Use: No
+Aug 26 10:05:49 pi homebridge[711]: [8/26/2017, 10:05:49 AM] [Office 1] Switch 3 - Set state: Off
+Aug 26 10:06:13 pi homebridge[711]: [8/26/2017, 10:06:13 AM] [Office 1] Switch 1 - Set state: Off
+Aug 26 10:06:31 pi homebridge[711]: [8/26/2017, 10:06:31 AM] [Office 1] Motion - Motion Sensor: Detected
+Aug 26 10:06:33 pi homebridge[711]: [8/26/2017, 10:06:33 AM] [Office 1] Motion - no motion timer started [60 secs]
+Aug 26 10:06:43 pi homebridge[711]: [8/26/2017, 10:06:43 AM] [Office 1] Switch 4 - Set state: Off
+Aug 26 10:06:47 pi homebridge[711]: [8/26/2017, 10:06:47 AM] [Office 1] Mini - Set state: Off
+Aug 26 10:07:33 pi homebridge[711]: [8/26/2017, 10:07:33 AM] [Office 1] Motion - Motion Sensor: Clear; no motion timer completed
+Aug 26 13:47:23 pi homebridge[711]: [8/26/2017, 1:47:23 PM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Detected
+Aug 26 13:47:29 pi homebridge[711]: [8/26/2017, 1:47:29 PM] [Office 1] NetCam Motion,smbeyer8 - no motion timer started [60 secs]
+Aug 26 13:48:29 pi homebridge[711]: [8/26/2017, 1:48:29 PM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Clear; no motion timer completed
+Aug 26 17:40:07 pi homebridge[711]: [8/26/2017, 5:40:07 PM] [Office 1] Switch 3 - Set state: On
+Aug 26 17:43:14 pi homebridge[711]: [8/26/2017, 5:43:14 PM] [Office 1] Motion - Motion Sensor: Detected
+Aug 26 17:43:16 pi homebridge[711]: [8/26/2017, 5:43:16 PM] [Office 1] Motion - no motion timer started [60 secs]
+Aug 26 17:44:06 pi homebridge[711]: [8/26/2017, 5:44:06 PM] [Office 1] Insight - Set state: On
+Aug 26 17:44:11 pi homebridge[711]: [8/26/2017, 5:44:11 PM] [Office 1] Insight - Outlet In Use: Yes
+Aug 26 17:44:16 pi homebridge[711]: [8/26/2017, 5:44:16 PM] [Office 1] Motion - Motion Sensor: Clear; no motion timer completed
+Aug 26 17:45:06 pi homebridge[711]: [8/26/2017, 5:45:06 PM] [Office 1] Switch 4 - Set state: On
+Aug 26 17:46:06 pi homebridge[711]: [8/26/2017, 5:46:06 PM] [Office 1] Mini - Set state: On
+Aug 26 17:50:15 pi homebridge[711]: [8/26/2017, 5:50:15 PM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Detected
+Aug 26 17:50:29 pi homebridge[711]: [8/26/2017, 5:50:29 PM] [Office 1] NetCam Motion,smbeyer8 - no motion timer started [60 secs]
+Aug 26 17:51:09 pi homebridge[711]: [8/26/2017, 5:51:09 PM] [Office 1] Switch 2 - Set state: On
+Aug 26 17:51:29 pi homebridge[711]: [8/26/2017, 5:51:29 PM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Clear; no motion timer completed
+Aug 26 17:52:06 pi homebridge[711]: [8/26/2017, 5:52:06 PM] [Office 1] Switch 1 - Set state: On
+Aug 26 17:54:02 pi homebridge[711]: [8/26/2017, 5:54:02 PM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Detected
+Aug 26 17:54:15 pi homebridge[711]: [8/26/2017, 5:54:15 PM] [Office 1] NetCam Motion,smbeyer8 - no motion timer started [60 secs]
+Aug 26 17:54:32 pi homebridge[711]: [8/26/2017, 5:54:32 PM] [Office 1] NetCam Motion,smbeyer8 - no motion timer stopped
+Aug 26 17:54:32 pi homebridge[711]: [8/26/2017, 5:54:32 PM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Detected
+Aug 26 17:54:38 pi homebridge[711]: [8/26/2017, 5:54:38 PM] [Office 1] NetCam Motion,smbeyer8 - no motion timer started [60 secs]
+Aug 26 17:55:05 pi homebridge[711]: [8/26/2017, 5:55:05 PM] [Office 1] Switch 2 - Set state: Off
+Aug 26 17:55:16 pi homebridge[711]: [8/26/2017, 5:55:16 PM] [Office 1] Mini - Set state: Off
+Aug 26 17:55:38 pi homebridge[711]: [8/26/2017, 5:55:38 PM] [Office 1] NetCam Motion,smbeyer8 - Motion Sensor: Clear; no motion timer completed
+Aug 26 17:55:39 pi homebridge[711]: [8/26/2017, 5:55:39 PM] [Office 1] Insight - Set state: Off
+Aug 26 17:55:45 pi homebridge[711]: [8/26/2017, 5:55:45 PM] [Office 1] Switch 4 - Set state: Off
+Aug 26 17:56:21 pi homebridge[711]: [8/26/2017, 5:56:21 PM] [Office 1] Switch 1 - Set state: Off
+Aug 26 17:56:45 pi homebridge[711]: [8/26/2017, 5:56:45 PM] [Office 1] Switch 3 - Set state: Off
+Aug 26 17:57:01 pi homebridge[711]: [8/26/2017, 5:57:01 PM] [Office 1] Motion - Motion Sensor: Detected
+Aug 26 17:57:05 pi homebridge[711]: [8/26/2017, 5:57:05 PM] [Office 1] Motion - no motion timer started [60 secs]
+Aug 26 17:58:05 pi homebridge[711]: [8/26/2017, 5:58:05 PM] [Office 1] Motion - Motion Sensor: Clear; no motion timer completed

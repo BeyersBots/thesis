@@ -1,0 +1,111 @@
+-- Logs begin at Wed 2017-12-20 09:17:01 EST. --
+Dec 22 08:57:56 pi homebridge[671]: [12/22/2017, 8:57:56 AM] [Office 1] Online: Switch 3 [94103E2B7A54]
+Dec 22 08:57:56 pi homebridge[671]: [12/22/2017, 8:57:56 AM] [Office 1] Online: Insight [14918224DD34]
+Dec 22 08:58:26 pi homebridge[671]: [12/22/2017, 8:58:26 AM] [Office 1] Online: Switch 4 [149182C86A08]
+Dec 22 08:58:26 pi homebridge[671]: [12/22/2017, 8:58:26 AM] [Office 1] Online: NetCam [EC1A59E4FD40]
+Dec 22 09:33:10 pi homebridge[671]: [12/22/2017, 9:33:10 AM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 09:33:26 pi homebridge[671]: [12/22/2017, 9:33:26 AM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 09:41:08 pi homebridge[671]: [12/22/2017, 9:41:08 AM] [Office 1] Mini - Set state: On
+Dec 22 09:41:09 pi homebridge[671]: [12/22/2017, 9:41:09 AM] [Office 1] Mini - Get state: On
+Dec 22 09:42:07 pi homebridge[671]: [12/22/2017, 9:42:07 AM] [Office 1] Switch 2 - Set state: On
+Dec 22 09:42:07 pi homebridge[671]: [12/22/2017, 9:42:07 AM] [Office 1] Switch 2 - Get state: On
+Dec 22 09:43:22 pi homebridge[671]: [12/22/2017, 9:43:22 AM] [Office 1] Switch 4 - Set state: On
+Dec 22 09:43:23 pi homebridge[671]: [12/22/2017, 9:43:23 AM] [Office 1] Switch 4 - Get state: On
+Dec 22 09:44:16 pi homebridge[671]: [12/22/2017, 9:44:16 AM] [Office 1] Switch 3 - Set state: On
+Dec 22 09:44:16 pi homebridge[671]: [12/22/2017, 9:44:16 AM] [Office 1] Switch 3 - Get state: On
+Dec 22 09:45:32 pi homebridge[671]: [12/22/2017, 9:45:32 AM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 22 09:45:42 pi homebridge[671]: [12/22/2017, 9:45:42 AM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 22 09:46:42 pi homebridge[671]: [12/22/2017, 9:46:42 AM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
+Dec 22 09:47:00 pi homebridge[671]: [12/22/2017, 9:47:00 AM] [Office 1] Insight - Set state: On
+Dec 22 09:47:01 pi homebridge[671]: [12/22/2017, 9:47:01 AM] [Office 1] Insight - Get state: On
+Dec 22 09:47:04 pi homebridge[671]: [12/22/2017, 9:47:04 AM] [Office 1] Insight - Outlet In Use: Yes
+Dec 22 09:48:26 pi homebridge[671]: [12/22/2017, 9:48:26 AM] [Office 1] Switch 1 - Set state: On
+Dec 22 09:48:26 pi homebridge[671]: [12/22/2017, 9:48:26 AM] [Office 1] Switch 1 - Get state: On
+Dec 22 09:49:25 pi homebridge[671]: [12/22/2017, 9:49:25 AM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 22 09:49:27 pi homebridge[671]: [12/22/2017, 9:49:27 AM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 22 09:50:27 pi homebridge[671]: [12/22/2017, 9:50:27 AM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 22 09:52:41 pi homebridge[671]: [12/22/2017, 9:52:41 AM] [Office 1] Switch 4 - Set state: Off
+Dec 22 09:52:41 pi homebridge[671]: [12/22/2017, 9:52:41 AM] [Office 1] Switch 4 - Get state: Off
+Dec 22 09:53:20 pi homebridge[671]: [12/22/2017, 9:53:20 AM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 22 09:53:29 pi homebridge[671]: [12/22/2017, 9:53:29 AM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 22 09:53:38 pi homebridge[671]: [12/22/2017, 9:53:38 AM] [Office 1] Switch 1 - Set state: Off
+Dec 22 09:53:39 pi homebridge[671]: [12/22/2017, 9:53:39 AM] [Office 1] Switch 1 - Get state: Off
+Dec 22 09:53:43 pi homebridge[671]: [12/22/2017, 9:53:43 AM] [Office 1] Mini - Set state: Off
+Dec 22 09:53:43 pi homebridge[671]: [12/22/2017, 9:53:43 AM] [Office 1] Mini - Get state: Off
+Dec 22 09:53:49 pi homebridge[671]: [12/22/2017, 9:53:49 AM] [Office 1] Switch 3 - Set state: Off
+Dec 22 09:53:50 pi homebridge[671]: [12/22/2017, 9:53:50 AM] [Office 1] Switch 3 - Get state: Off
+Dec 22 09:54:29 pi homebridge[671]: [12/22/2017, 9:54:29 AM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
+Dec 22 09:55:18 pi homebridge[671]: [12/22/2017, 9:55:18 AM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 22 09:55:21 pi homebridge[671]: [12/22/2017, 9:55:21 AM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 22 09:55:25 pi homebridge[671]: [12/22/2017, 9:55:25 AM] [Office 1] Switch 2 - Set state: Off
+Dec 22 09:55:26 pi homebridge[671]: [12/22/2017, 9:55:26 AM] [Office 1] Switch 2 - Get state: Off
+Dec 22 09:55:28 pi homebridge[671]: [12/22/2017, 9:55:28 AM] [Office 1] Insight - Set state: Off
+Dec 22 09:55:30 pi homebridge[671]: [12/22/2017, 9:55:30 AM] [Office 1] Insight - Get state: Off
+Dec 22 09:55:30 pi homebridge[671]: [12/22/2017, 9:55:30 AM] [Office 1] Insight - Outlet In Use: No
+Dec 22 09:56:21 pi homebridge[671]: [12/22/2017, 9:56:21 AM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 22 10:24:35 pi homebridge[671]: [12/22/2017, 10:24:35 AM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 22 10:25:27 pi homebridge[671]: [12/22/2017, 10:25:27 AM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 10:42:38 pi homebridge[671]: [12/22/2017, 10:42:38 AM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 10:44:57 pi homebridge[671]: [12/22/2017, 10:44:57 AM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 10:57:08 pi homebridge[671]: [12/22/2017, 10:57:08 AM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 10:57:27 pi homebridge[671]: [12/22/2017, 10:57:27 AM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 11:14:38 pi homebridge[671]: [12/22/2017, 11:14:38 AM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 11:16:28 pi homebridge[671]: [12/22/2017, 11:16:28 AM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 11:30:06 pi homebridge[671]: [12/22/2017, 11:30:06 AM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 22 11:31:28 pi homebridge[671]: [12/22/2017, 11:31:28 AM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 11:51:09 pi homebridge[671]: [12/22/2017, 11:51:09 AM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 11:51:28 pi homebridge[671]: [12/22/2017, 11:51:28 AM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 12:25:07 pi homebridge[671]: [12/22/2017, 12:25:07 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 22 12:26:59 pi homebridge[671]: [12/22/2017, 12:26:59 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 13:19:13 pi homebridge[671]: [12/22/2017, 1:19:13 PM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 13:20:30 pi homebridge[671]: [12/22/2017, 1:20:30 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 13:34:08 pi homebridge[671]: [12/22/2017, 1:34:08 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 22 13:35:00 pi homebridge[671]: [12/22/2017, 1:35:00 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 15:06:13 pi homebridge[671]: [12/22/2017, 3:06:13 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 22 15:09:01 pi homebridge[671]: [12/22/2017, 3:09:01 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 16:00:12 pi homebridge[671]: [12/22/2017, 4:00:12 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 22 16:03:32 pi homebridge[671]: [12/22/2017, 4:03:32 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 17:25:44 pi homebridge[671]: [12/22/2017, 5:25:44 PM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 17:26:03 pi homebridge[671]: [12/22/2017, 5:26:03 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 17:54:27 pi homebridge[671]: [12/22/2017, 5:54:27 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 22 17:55:34 pi homebridge[671]: [12/22/2017, 5:55:34 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 18:12:46 pi homebridge[671]: [12/22/2017, 6:12:46 PM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 22 18:13:04 pi homebridge[671]: [12/22/2017, 6:13:04 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 22 19:17:37 pi homebridge[671]: [12/22/2017, 7:17:37 PM] [Office 1] Switch 4 - Set state: On
+Dec 22 19:17:38 pi homebridge[671]: [12/22/2017, 7:17:38 PM] [Office 1] Switch 4 - Get state: On
+Dec 22 19:18:04 pi homebridge[671]: [12/22/2017, 7:18:04 PM] [Office 1] Switch 3 - Set state: On
+Dec 22 19:18:05 pi homebridge[671]: [12/22/2017, 7:18:05 PM] [Office 1] Switch 3 - Get state: On
+Dec 22 19:19:21 pi homebridge[671]: [12/22/2017, 7:19:21 PM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 22 19:19:35 pi homebridge[671]: [12/22/2017, 7:19:35 PM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 22 19:20:03 pi homebridge[671]: [12/22/2017, 7:20:03 PM] [Office 1] Mini - Set state: On
+Dec 22 19:20:04 pi homebridge[671]: [12/22/2017, 7:20:04 PM] [Office 1] Mini - Get state: On
+Dec 22 19:20:35 pi homebridge[671]: [12/22/2017, 7:20:35 PM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
+Dec 22 19:21:03 pi homebridge[671]: [12/22/2017, 7:21:03 PM] [Office 1] Insight - Set state: On
+Dec 22 19:21:06 pi homebridge[671]: [12/22/2017, 7:21:06 PM] [Office 1] Insight - Get state: On
+Dec 22 19:21:06 pi homebridge[671]: [12/22/2017, 7:21:06 PM] [Office 1] Insight - Outlet In Use: Yes
+Dec 22 19:22:12 pi homebridge[671]: [12/22/2017, 7:22:12 PM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 22 19:22:16 pi homebridge[671]: [12/22/2017, 7:22:16 PM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 22 19:23:06 pi homebridge[671]: [12/22/2017, 7:23:06 PM] [Office 1] Switch 1 - Set state: On
+Dec 22 19:23:06 pi homebridge[671]: [12/22/2017, 7:23:06 PM] [Office 1] Switch 1 - Get state: On
+Dec 22 19:23:16 pi homebridge[671]: [12/22/2017, 7:23:16 PM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 22 19:24:17 pi homebridge[671]: [12/22/2017, 7:24:17 PM] [Office 1] Switch 2 - Set state: On
+Dec 22 19:24:17 pi homebridge[671]: [12/22/2017, 7:24:17 PM] [Office 1] Switch 2 - Get state: On
+Dec 22 19:25:18 pi homebridge[671]: [12/22/2017, 7:25:18 PM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 22 19:25:22 pi homebridge[671]: [12/22/2017, 7:25:22 PM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 22 19:26:11 pi homebridge[671]: [12/22/2017, 7:26:11 PM] [Office 1] Switch 1 - Set state: Off
+Dec 22 19:26:12 pi homebridge[671]: [12/22/2017, 7:26:12 PM] [Office 1] Switch 1 - Get state: Off
+Dec 22 19:26:22 pi homebridge[671]: [12/22/2017, 7:26:22 PM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 22 19:26:24 pi homebridge[671]: [12/22/2017, 7:26:24 PM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 22 19:26:33 pi homebridge[671]: [12/22/2017, 7:26:33 PM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 22 19:26:34 pi homebridge[671]: [12/22/2017, 7:26:34 PM] [Office 1] Mini - Set state: Off
+Dec 22 19:26:35 pi homebridge[671]: [12/22/2017, 7:26:35 PM] [Office 1] Mini - Get state: Off
+Dec 22 19:26:40 pi homebridge[671]: [12/22/2017, 7:26:40 PM] [Office 1] Switch 4 - Set state: Off
+Dec 22 19:26:41 pi homebridge[671]: [12/22/2017, 7:26:41 PM] [Office 1] Switch 4 - Get state: Off
+Dec 22 19:26:43 pi homebridge[671]: [12/22/2017, 7:26:43 PM] [Office 1] Switch 3 - Set state: Off
+Dec 22 19:26:45 pi homebridge[671]: [12/22/2017, 7:26:45 PM] [Office 1] Switch 3 - Get state: Off
+Dec 22 19:26:47 pi homebridge[671]: [12/22/2017, 7:26:46 PM] [Office 1] Switch 2 - Set state: Off
+Dec 22 19:26:47 pi homebridge[671]: [12/22/2017, 7:26:47 PM] [Office 1] Switch 2 - Get state: Off
+Dec 22 19:26:50 pi homebridge[671]: [12/22/2017, 7:26:50 PM] [Office 1] Insight - Set state: Off
+Dec 22 19:26:51 pi homebridge[671]: [12/22/2017, 7:26:51 PM] [Office 1] Insight - Get state: Off
+Dec 22 19:26:51 pi homebridge[671]: [12/22/2017, 7:26:51 PM] [Office 1] Insight - Outlet In Use: No
+Dec 22 19:27:33 pi homebridge[671]: [12/22/2017, 7:27:33 PM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed

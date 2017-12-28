@@ -1,0 +1,37 @@
+\subsection{Smart Home Technologies}
+A list of smart home terms relevant to the work in this paper is provided:
+\begin{itemize}
+\item\textbf{Devices}: \ac{BLE} or WiFi devices such as switches, smart outlets, cameras, or sensors. Can be connected to and controlled by controllers.
+\item\textbf{Controllers}: A master device such as an iPhone or Android that connects to device within the smart home to get status updates or change states.
+\item\textbf{Hub}: A system that sits on the home network, connects to different devices via the manufacturer \ac{API}, and exposes control of the device via a centralized application on the \texttt{controller}. Hubs often provide access to the devices while a user is away from the smart home. Examples of hubs includes Apple's Homekit and the open-source server Homebridge.
+\item\textbf{Apple's HomeKit}: A hub that provides a controller with voice control and automation capabilities for devices.
+\item\textbf{Applications}: Many smart home devices require proprietary applications to interact with the device's full range of capabilities. A controller must use these applications to control the device.
+\end{itemize}
+
+\subsection{Technical Overview}
+This section provides a brief technical summary of the WiFi and \ac{BLE} protocols necessary to understand the rest of this work.
+
+\subsubsection{WiFi}
+The WiFi standard defines the Physical layer and Link layer for wireless communication in the 2.4 GHz radio band \cite{802.11}. Because WiFi does not use a point-to-point medium, anyone with a properly-tuned receiver can observe traffic sent over the air. Consequently, for the sake of confidentiality, the protocol defines security procedures to encrypt data sent within a wireless network. Even with encryption, however, WiFi still transmits information in the clear within the \ac{MPDU} data frame. Values of interest sent in the clear include frame type, source \ac{MAC} address, destination \ac{MAC} address, and router address. Also, the time, size, and \ac{RSSI} of the packets can be ascertained from the receiver wireless network card. In this work we make no effort to break encryption, but instead demonstrate what can be inferred from packets sent within an encrypted wireless \ac{AP}.
+
+
+\subsubsection{Bluetooth Low Energy}
+The Bluetooth \ac{SIG} introduced \ac{BLE} (Bluetooth Smart) in Bluetooth Core Specification v4.0 \cite{sig4.0}. \ac{BLE} is designed to minimize power, cost, and data rate and these goals are accomplished by limiting overhead at every level of the architecture and using simple communication protocols. To this same end, \ac{BLE} devices predominantly transmit state data, such as whether a light is on/off, in short, infrequent bursts. These characteristics make \ac{BLE} ideal for \ac{IoT} applications where battery life is a top priority. Similarly to WiFi, the elements of the \ac{BLE} architecture relevant to this work are in the Physical and Link layers.
+
+The physical and link layers control frequency hopping, finding devices, establishing connections, packet structure, and transmitting/receiving data. As shown in Figure~\ref{fig:Channel}, \ac{BLE} operates in the 2.4GHz band which is divided into forty channels separated by 2-MHz. These frequencies are distributed into three advertising channels (37, 38, and 39) and thirty-seven data channels. 
+
+\figChannel
+
+Connections use a master-slave model which begins with a slave announcing its presence by broadcasting advertising packets on the three advertisement channels. Each advertising packet includes device information such as connectability, scannability, services provided, and name of the device. Advertising packets also include a ``TxAdd" bit that indicates if the advertiser is using a public or random address. A master actively or passively scans the advertisement channels detecting connectible devices. Active scanning is a key concept for fingerprinting in this work and the process is depicted in Figure~\ref{fig:Scanning}. When actively scanning, a master observes an advertising packet and, if the device is scannable, sends a scan request to the device. The advertiser sends a scan response back with more information, typically expanding on the device name and possibly including broadcast data such as battery level. A master can only connect to a device that advertises its presence and is connectible.
+
+\figScanning
+
+When in a connection, a master and slave communicate on one channel per \ac{CE}. After each \ac{CE}, both the master and slave hop to a new frequency per hopping parameters established by the master at the beginning of a connection or in a parameter update.
+
+\subsection{Tools}
+This work employs many WiFi and \ac{BLE} tools for sniffing, parsing traffic, visualizing data, and attack. As an aid ot the reader, a summary of tools is provided in Table. 
+airodump-ng -scanning
+alfa card
+ubertooth one
+python
+pyshark

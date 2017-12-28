@@ -1,0 +1,4 @@
+Test Type,Mean DCSR$_%$,Mean EISR$_%$,Mean EIFP$_%$,Mean EIFN$_%$,Mean ULSR$_%$
+BLE,76.923,94.833,12.991,5.167,N/A
+Wi-Fi,100,93.696,2.94,6.304,99.711
+Wi-Fi (MIoTL),,,,,

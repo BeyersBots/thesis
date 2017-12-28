@@ -1,0 +1,194 @@
+-- Logs begin at Sat 2017-12-23 09:17:01 EST. --
+Dec 26 10:56:36 pi homebridge[672]: [12/26/2017, 10:56:36 AM] [Office 1] Switch 1 - Set state: On
+Dec 26 10:56:36 pi homebridge[672]: [12/26/2017, 10:56:36 AM] [Office 1] Switch 1 - Get state: On
+Dec 26 10:58:30 pi homebridge[672]: [12/26/2017, 10:58:30 AM] [Office 1] Mini - Set state: On
+Dec 26 10:58:30 pi homebridge[672]: [12/26/2017, 10:58:30 AM] [Office 1] Mini - Get state: On
+Dec 26 10:59:38 pi homebridge[672]: [12/26/2017, 10:59:38 AM] [Office 1] Insight - Set state: On
+Dec 26 10:59:40 pi homebridge[672]: [12/26/2017, 10:59:40 AM] [Office 1] Insight - Get state: On
+Dec 26 10:59:44 pi homebridge[672]: [12/26/2017, 10:59:44 AM] [Office 1] Insight - Outlet In Use: Yes
+Dec 26 11:00:44 pi homebridge[672]: [12/26/2017, 11:00:44 AM] [Office 1] Switch 2 - Set state: On
+Dec 26 11:00:44 pi homebridge[672]: [12/26/2017, 11:00:44 AM] [Office 1] Switch 2 - Get state: On
+Dec 26 11:01:55 pi homebridge[672]: [12/26/2017, 11:01:55 AM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 26 11:02:07 pi homebridge[672]: [12/26/2017, 11:02:07 AM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 26 11:03:07 pi homebridge[672]: [12/26/2017, 11:03:07 AM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
+Dec 26 11:04:06 pi homebridge[672]: [12/26/2017, 11:04:06 AM] [Office 1] Switch 4 - Set state: On
+Dec 26 11:04:07 pi homebridge[672]: [12/26/2017, 11:04:07 AM] [Office 1] Switch 4 - Get state: On
+Dec 26 11:05:14 pi homebridge[672]: [12/26/2017, 11:05:14 AM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 26 11:05:17 pi homebridge[672]: [12/26/2017, 11:05:17 AM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 26 11:06:17 pi homebridge[672]: [12/26/2017, 11:06:17 AM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 26 11:06:56 pi homebridge[672]: [12/26/2017, 11:06:56 AM] [Office 1] Switch 3 - Set state: On
+Dec 26 11:06:57 pi homebridge[672]: [12/26/2017, 11:06:57 AM] [Office 1] Switch 3 - Get state: On
+Dec 26 12:06:53 pi homebridge[672]: [12/26/2017, 12:06:53 PM] [Office 1] Mini - Set state: Off
+Dec 26 12:06:54 pi homebridge[672]: [12/26/2017, 12:06:54 PM] [Office 1] Mini - Get state: Off
+Dec 26 12:06:56 pi homebridge[672]: [12/26/2017, 12:06:56 PM] [Office 1] Switch 1 - Set state: Off
+Dec 26 12:06:56 pi homebridge[672]: [12/26/2017, 12:06:56 PM] [Office 1] Switch 1 - Get state: Off
+Dec 26 12:07:11 pi homebridge[672]: [12/26/2017, 12:07:11 PM] [Office 1] Switch 4 - Set state: Off
+Dec 26 12:07:12 pi homebridge[672]: [12/26/2017, 12:07:12 PM] [Office 1] Switch 4 - Get state: Off
+Dec 26 12:07:15 pi homebridge[672]: [12/26/2017, 12:07:15 PM] [Office 1] Insight - Get state: Off
+Dec 26 12:07:15 pi homebridge[672]: [12/26/2017, 12:07:15 PM] [Office 1] Insight - Outlet In Use: No
+Dec 26 12:07:18 pi homebridge[672]: [12/26/2017, 12:07:18 PM] [Office 1] Insight - Set state: Off
+Dec 26 12:07:18 pi homebridge[672]: [12/26/2017, 12:07:18 PM] [Office 1] Switch 2 - Set state: Off
+Dec 26 12:07:18 pi homebridge[672]: [12/26/2017, 12:07:18 PM] [Office 1] Switch 2 - Get state: Off
+Dec 26 12:07:45 pi homebridge[672]: [12/26/2017, 12:07:45 PM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 26 12:07:48 pi homebridge[672]: [12/26/2017, 12:07:48 PM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 26 12:07:58 pi homebridge[672]: [12/26/2017, 12:07:58 PM] [Office 1] Switch 3 - Set state: Off
+Dec 26 12:07:58 pi homebridge[672]: [12/26/2017, 12:07:58 PM] [Office 1] Switch 3 - Get state: Off
+Dec 26 12:08:44 pi homebridge[672]: [12/26/2017, 12:08:44 PM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 26 12:08:48 pi homebridge[672]: [12/26/2017, 12:08:48 PM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 26 12:08:50 pi homebridge[672]: [12/26/2017, 12:08:50 PM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 26 12:09:50 pi homebridge[672]: [12/26/2017, 12:09:50 PM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
+Dec 26 12:37:03 pi homebridge[672]: [12/26/2017, 12:37:03 PM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 26 12:37:18 pi homebridge[672]: [12/26/2017, 12:37:18 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 26 12:57:01 pi homebridge[672]: [12/26/2017, 12:57:01 PM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 26 12:57:49 pi homebridge[672]: [12/26/2017, 12:57:49 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 26 13:44:17 pi homebridge[672]: [12/26/2017, 1:44:17 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 26 13:47:20 pi homebridge[672]: [12/26/2017, 1:47:20 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 26 14:35:58 pi homebridge[672]: [12/26/2017, 2:35:58 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 26 14:37:20 pi homebridge[672]: [12/26/2017, 2:37:20 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 26 14:53:20 pi homebridge[672]: [12/26/2017, 2:53:20 PM] [Office 1] Mini reported error ETIMEDOUT
+Dec 26 14:54:22 pi homebridge[672]: [12/26/2017, 2:54:22 PM] [Office 1] Online and can update device: undefined [6038E0EE7CE4]
+Dec 26 15:14:04 pi homebridge[672]: [12/26/2017, 3:14:04 PM] [Office 1] Mini reported error ETIMEDOUT
+Dec 26 16:07:03 pi homebridge[672]: [12/26/2017, 4:07:03 PM] [Office 1] NetCam reported error ETIMEDOUT
+Dec 26 16:08:22 pi homebridge[672]: [12/26/2017, 4:08:22 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 26 16:26:11 pi homebridge[672]: [12/26/2017, 4:26:11 PM] [Office 1] NetCam reported error EHOSTUNREACH
+Dec 26 16:27:22 pi homebridge[672]: [12/26/2017, 4:27:22 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
+Dec 26 17:02:30 pi homebridge[672]: [12/26/2017, 5:02:30 PM] [Office 1] Switch 4 - Set state: On
+Dec 26 17:02:31 pi homebridge[672]: [12/26/2017, 5:02:31 PM] [Office 1] Switch 4 - Get state: On
+Dec 26 17:03:16 pi homebridge[672]: [12/26/2017, 5:03:16 PM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 26 17:03:20 pi homebridge[672]: [12/26/2017, 5:03:20 PM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 26 17:04:03 pi homebridge[672]: [12/26/2017, 5:04:03 PM] [Office 1] Switch 2 - Set state: On
+Dec 26 17:04:04 pi homebridge[672]: [12/26/2017, 5:04:04 PM] [Office 1] Switch 2 - Get state: On
+Dec 26 17:04:20 pi homebridge[672]: [12/26/2017, 5:04:20 PM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 26 17:05:17 pi homebridge[672]: [12/26/2017, 5:05:17 PM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 26 17:05:23 pi homebridge[672]: [12/26/2017, 5:05:23 PM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 26 17:06:03 pi homebridge[672]: [12/26/2017, 5:06:03 PM] [Office 1] Insight - Set state: On
+Dec 26 17:06:05 pi homebridge[672]: [12/26/2017, 5:06:05 PM] [Office 1] Insight - Get state: On
+Dec 26 17:06:06 pi homebridge[672]: [12/26/2017, 5:06:06 PM] [Office 1] Insight - Outlet In Use: Yes
+Dec 26 17:06:23 pi homebridge[672]: [12/26/2017, 5:06:23 PM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
+Dec 26 17:07:18 pi homebridge[672]: [12/26/2017, 5:07:18 PM] [Office 1] Switch 1 - Set state: On
+Dec 26 17:07:18 pi homebridge[672]: [12/26/2017, 5:07:18 PM] [Office 1] Switch 1 - Get state: On
+Dec 26 17:09:15 pi homebridge[672]: [12/26/2017, 5:09:15 PM] [Office 1] Switch 3 - Set state: On
+Dec 26 17:09:16 pi homebridge[672]: [12/26/2017, 5:09:16 PM] [Office 1] Switch 3 - Get state: On
+Dec 26 17:09:59 pi homebridge[672]: [12/26/2017, 5:09:59 PM] [Office 1] Mini reported error EHOSTUNREACH
+Dec 26 17:09:59 pi homebridge[672]: [12/26/2017, 5:09:59 PM] [Office 1] Mini - Set state FAILED: on. Error: EHOSTUNREACH
+Dec 26 17:10:22 pi homebridge[672]: [12/26/2017, 5:10:22 PM] [Office 1] Mini reported error ETIMEDOUT
+Dec 26 17:10:22 pi homebridge[672]: [12/26/2017, 5:10:22 PM] [Office 1] Mini - Set state FAILED: on. Error: ETIMEDOUT
+Dec 26 17:11:04 pi systemd[1]: homebridge.service: main process exited, code=killed, status=9/KILL
+Dec 26 17:11:04 pi systemd[1]: Unit homebridge.service entered failed state.
+Dec 26 17:11:14 pi systemd[1]: homebridge.service holdoff time over, scheduling restart.
+Dec 26 17:11:14 pi systemd[1]: Stopping Node.js HomeKit Server...
+Dec 26 17:11:14 pi systemd[1]: Starting Node.js HomeKit Server...
+Dec 26 17:11:14 pi systemd[1]: Started Node.js HomeKit Server.
+Dec 26 17:11:14 pi homebridge[7967]: *** WARNING *** The program 'nodejs' uses the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:11:14 pi nodejs[7967]: *** WARNING *** The program 'nodejs' uses the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:11:14 pi homebridge[7967]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:11:14 pi nodejs[7967]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:11:14 pi homebridge[7967]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs>
+Dec 26 17:11:14 pi nodejs[7967]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs>
+Dec 26 17:11:14 pi nodejs[7967]: *** WARNING *** The program 'nodejs' called 'DNSServiceRegister()' which is not supported (or only supported partially) in the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:11:14 pi nodejs[7967]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:11:14 pi nodejs[7967]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs&f=DNSServiceRegister>
+Dec 26 17:11:14 pi homebridge[7967]: *** WARNING *** The program 'nodejs' called 'DNSServiceRegister()' which is not supported (or only supported partially) in the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:11:14 pi homebridge[7967]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:11:14 pi homebridge[7967]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs&f=DNSServiceRegister>
+Dec 26 17:11:18 pi homebridge[7967]: [12/26/2017, 5:11:18 PM] Loaded plugin: homebridge-nest
+Dec 26 17:11:18 pi homebridge[7967]: [12/26/2017, 5:11:18 PM] Registering platform 'homebridge-nest.Nest'
+Dec 26 17:11:18 pi homebridge[7967]: [12/26/2017, 5:11:18 PM] ---
+Dec 26 17:11:19 pi homebridge[7967]: [12/26/2017, 5:11:19 PM] Loaded plugin: homebridge-platform-wemo
+Dec 26 17:11:19 pi homebridge[7967]: [12/26/2017, 5:11:19 PM] Registering platform 'homebridge-platform-wemo.BelkinWeMo'
+Dec 26 17:11:19 pi homebridge[7967]: [12/26/2017, 5:11:19 PM] ---
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] Loaded plugin: homebridge-wemo
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] Registering accessory 'homebridge-wemo.WeMo'
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] ---
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] Loaded config.json with 0 accessories and 1 platforms.
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] ---
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] Loading 1 platforms...
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Initializing BelkinWeMo platform...
+Dec 26 17:11:20 pi homebridge[7967]: Scan this code with your HomeKit App on your iOS device to pair with Homebridge:
+Dec 26 17:11:20 pi homebridge[7967]: ┌────────────┐
+Dec 26 17:11:20 pi homebridge[7967]: │ 389-12-765 │
+Dec 26 17:11:20 pi homebridge[7967]: └────────────┘
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] Homebridge is running on port 51826.
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Online: Insight [14918224DD34]
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Online: NetCam [EC1A59E4FD40]
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Online: Switch 1 [B4750E0D33D4]
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Online: Switch 2 [B4750E0D9464]
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Online: Switch 3 [94103E2B7A54]
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Online: WeMo Motion [EC1A59F1FB20]
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Online: Switch 4 [149182C86A08]
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Insight - Get state: On
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Switch 2 - Get state: On
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Switch 1 - Get state: On
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Switch 3 - Get state: On
+Dec 26 17:11:20 pi homebridge[7967]: [12/26/2017, 5:11:20 PM] [Office 1] Switch 4 - Get state: On
+Dec 26 17:11:21 pi homebridge[7967]: [12/26/2017, 5:11:21 PM] [Office 1] Insight - Outlet In Use: Yes
+Dec 26 17:12:50 pi homebridge[7967]: [12/26/2017, 5:12:50 PM] [Office 1] Online: Mini [6038E0EE7CE4]
+Dec 26 17:13:05 pi homebridge[7967]: [12/26/2017, 5:13:05 PM] Got SIGTERM, shutting down Homebridge...
+Dec 26 17:13:05 pi systemd[1]: homebridge.service: main process exited, code=exited, status=143/n/a
+Dec 26 17:13:05 pi systemd[1]: Unit homebridge.service entered failed state.
+Dec 26 17:13:15 pi systemd[1]: homebridge.service holdoff time over, scheduling restart.
+Dec 26 17:13:15 pi systemd[1]: Stopping Node.js HomeKit Server...
+Dec 26 17:13:15 pi systemd[1]: Starting Node.js HomeKit Server...
+Dec 26 17:13:15 pi systemd[1]: Started Node.js HomeKit Server.
+Dec 26 17:13:15 pi homebridge[8035]: *** WARNING *** The program 'nodejs' uses the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:13:15 pi nodejs[8035]: *** WARNING *** The program 'nodejs' uses the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:13:15 pi nodejs[8035]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:13:15 pi nodejs[8035]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs>
+Dec 26 17:13:15 pi nodejs[8035]: *** WARNING *** The program 'nodejs' called 'DNSServiceRegister()' which is not supported (or only supported partially) in the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:13:15 pi nodejs[8035]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:13:15 pi nodejs[8035]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs&f=DNSServiceRegister>
+Dec 26 17:13:15 pi homebridge[8035]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:13:15 pi homebridge[8035]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs>
+Dec 26 17:13:15 pi homebridge[8035]: *** WARNING *** The program 'nodejs' called 'DNSServiceRegister()' which is not supported (or only supported partially) in the Apple Bonjour compatibility layer of Avahi.
+Dec 26 17:13:15 pi homebridge[8035]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Dec 26 17:13:15 pi homebridge[8035]: *** WARNING *** For more information see <http://0pointer.de/avahi-compat?s=libdns_sd&e=nodejs&f=DNSServiceRegister>
+Dec 26 17:13:19 pi homebridge[8035]: [12/26/2017, 5:13:19 PM] Loaded plugin: homebridge-nest
+Dec 26 17:13:19 pi homebridge[8035]: [12/26/2017, 5:13:19 PM] Registering platform 'homebridge-nest.Nest'
+Dec 26 17:13:19 pi homebridge[8035]: [12/26/2017, 5:13:19 PM] ---
+Dec 26 17:13:19 pi homebridge[8035]: [12/26/2017, 5:13:19 PM] Loaded plugin: homebridge-platform-wemo
+Dec 26 17:13:19 pi homebridge[8035]: [12/26/2017, 5:13:19 PM] Registering platform 'homebridge-platform-wemo.BelkinWeMo'
+Dec 26 17:13:19 pi homebridge[8035]: [12/26/2017, 5:13:19 PM] ---
+Dec 26 17:13:20 pi homebridge[8035]: [12/26/2017, 5:13:20 PM] Loaded plugin: homebridge-wemo
+Dec 26 17:13:20 pi homebridge[8035]: [12/26/2017, 5:13:20 PM] Registering accessory 'homebridge-wemo.WeMo'
+Dec 26 17:13:20 pi homebridge[8035]: [12/26/2017, 5:13:20 PM] ---
+Dec 26 17:13:20 pi homebridge[8035]: [12/26/2017, 5:13:20 PM] Loaded config.json with 0 accessories and 1 platforms.
+Dec 26 17:13:20 pi homebridge[8035]: [12/26/2017, 5:13:20 PM] ---
+Dec 26 17:13:20 pi homebridge[8035]: [12/26/2017, 5:13:20 PM] Loading 1 platforms...
+Dec 26 17:13:20 pi homebridge[8035]: [12/26/2017, 5:13:20 PM] [Office 1] Initializing BelkinWeMo platform...
+Dec 26 17:13:20 pi homebridge[8035]: Scan this code with your HomeKit App on your iOS device to pair with Homebridge:
+Dec 26 17:13:20 pi homebridge[8035]: ┌────────────┐
+Dec 26 17:13:20 pi homebridge[8035]: │ 389-12-765 │
+Dec 26 17:13:20 pi homebridge[8035]: └────────────┘
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] Homebridge is running on port 51826.
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] [Office 1] Online: Mini [6038E0EE7CE4]
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] [Office 1] Online: Switch 1 [B4750E0D33D4]
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] [Office 1] Online: Switch 2 [B4750E0D9464]
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] [Office 1] Online: WeMo Motion [EC1A59F1FB20]
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] [Office 1] Online: Insight [14918224DD34]
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] [Office 1] Online: Switch 3 [94103E2B7A54]
+Dec 26 17:13:21 pi homebridge[8035]: [12/26/2017, 5:13:21 PM] [Office 1] Online: Switch 4 [149182C86A08]
+Dec 26 17:14:24 pi homebridge[8035]: [12/26/2017, 5:14:24 PM] [Office 1] Mini - Set state: On
+Dec 26 17:14:24 pi homebridge[8035]: [12/26/2017, 5:14:24 PM] [Office 1] Mini - Get state: On
+Dec 26 17:15:23 pi homebridge[8035]: [12/26/2017, 5:15:23 PM] [Office 1] Online: NetCam [EC1A59E4FD40]
+Dec 26 17:20:15 pi homebridge[8035]: [12/26/2017, 5:20:15 PM] [Office 1] WeMo Motion - Motion Sensor: Detected
+Dec 26 17:20:19 pi homebridge[8035]: [12/26/2017, 5:20:19 PM] [Office 1] WeMo Motion - no motion timer started [60 secs]
+Dec 26 17:20:22 pi homebridge[8035]: [12/26/2017, 5:20:22 PM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 26 17:20:31 pi homebridge[8035]: [12/26/2017, 5:20:31 PM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 26 17:21:02 pi homebridge[8035]: [12/26/2017, 5:21:02 PM] [Office 1] Switch 4 - Set state: Off
+Dec 26 17:21:03 pi homebridge[8035]: [12/26/2017, 5:21:03 PM] [Office 1] Switch 4 - Get state: Off
+Dec 26 17:21:06 pi homebridge[8035]: [12/26/2017, 5:21:06 PM] [Office 1] Switch 1 - Set state: Off
+Dec 26 17:21:06 pi homebridge[8035]: [12/26/2017, 5:21:06 PM] [Office 1] Switch 1 - Get state: Off
+Dec 26 17:21:08 pi homebridge[8035]: [12/26/2017, 5:21:08 PM] [Office 1] Switch 2 - Set state: Off
+Dec 26 17:21:09 pi homebridge[8035]: [12/26/2017, 5:21:09 PM] [Office 1] Switch 2 - Get state: Off
+Dec 26 17:21:19 pi homebridge[8035]: [12/26/2017, 5:21:19 PM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
+Dec 26 17:21:31 pi homebridge[8035]: [12/26/2017, 5:21:31 PM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
+Dec 26 17:21:36 pi homebridge[8035]: [12/26/2017, 5:21:36 PM] [Office 1] NetCam - Motion Sensor: Detected
+Dec 26 17:21:41 pi homebridge[8035]: [12/26/2017, 5:21:41 PM] [Office 1] Mini - Set state: Off
+Dec 26 17:21:42 pi homebridge[8035]: [12/26/2017, 5:21:42 PM] [Office 1] Mini - Get state: Off
+Dec 26 17:21:44 pi homebridge[8035]: [12/26/2017, 5:21:44 PM] [Office 1] Insight - Set state: Off
+Dec 26 17:21:45 pi homebridge[8035]: [12/26/2017, 5:21:45 PM] [Office 1] NetCam - no motion timer started [60 secs]
+Dec 26 17:21:46 pi homebridge[8035]: [12/26/2017, 5:21:46 PM] [Office 1] Insight - Get state: Off
+Dec 26 17:21:46 pi homebridge[8035]: [12/26/2017, 5:21:46 PM] [Office 1] Insight - Outlet In Use: No
+Dec 26 17:21:47 pi homebridge[8035]: [12/26/2017, 5:21:47 PM] [Office 1] Switch 3 - Set state: Off
+Dec 26 17:21:48 pi homebridge[8035]: [12/26/2017, 5:21:48 PM] [Office 1] Switch 3 - Get state: Off
+Dec 26 17:22:45 pi homebridge[8035]: [12/26/2017, 5:22:45 PM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed

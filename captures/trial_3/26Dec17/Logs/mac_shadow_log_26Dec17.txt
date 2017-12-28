@@ -1,0 +1,498 @@
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 10:47:11
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 10:51:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 10:55:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 10:59:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:03:27
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:07:27
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:11:27
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:15:30
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:19:30
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:23:32
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:27:32
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:31:33
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:35:37
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:39:39
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:43:40
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:47:40
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:51:42
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:55:47
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 11:59:49
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:03:49
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:07:50
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:11:50
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:15:54
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:20:09
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:24:26
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:28:26
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:32:28
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 12:32:51
+Done sending, going to sleep for 228 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:36:40
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:40:40
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 12:41:03
+Done sending, going to sleep for 240 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:45:04
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:49:07
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 12:49:29
+Done sending, going to sleep for 196 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:52:46
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 12:56:49
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 12:57:11
+Done sending, going to sleep for 180 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:00:13
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:04:15
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:08:17
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:12:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:16:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:20:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:24:25
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:28:25
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:32:27
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 13:32:50
+Done sending, going to sleep for 183 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:35:54
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 13:36:17
+Done sending, going to sleep for 199 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:39:37
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:43:44
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:47:52
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 13:48:14
+Done sending, going to sleep for 200 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:51:36
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:55:40
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 13:59:40
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:03:57
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:07:57
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:12:06
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:16:14
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:16:36
+Done sending, going to sleep for 191 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:19:49
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:24:05
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:24:28
+Done sending, going to sleep for 234 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:28:23
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:28:46
+Done sending, going to sleep for 184 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:31:51
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:32:13
+Done sending, going to sleep for 202 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:35:37
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:35:59
+Done sending, going to sleep for 225 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:39:45
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:40:08
+Done sending, going to sleep for 223 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:43:53
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:44:16
+Done sending, going to sleep for 213 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:47:50
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:48:12
+Done sending, going to sleep for 201 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:51:35
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:51:57
+Done sending, going to sleep for 240 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 14:55:59
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 14:56:21
+Done sending, going to sleep for 235 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:00:17
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:00:40
+Done sending, going to sleep for 183 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:03:44
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:04:07
+Done sending, going to sleep for 214 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:07:42
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:08:04
+Done sending, going to sleep for 215 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:11:42
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:12:04
+Done sending, going to sleep for 200 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:15:25
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:15:48
+Done sending, going to sleep for 223 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:19:32
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:19:55
+Done sending, going to sleep for 201 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:23:18
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:23:40
+Done sending, going to sleep for 226 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:27:28
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:27:50
+Done sending, going to sleep for 224 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:31:36
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:31:58
+Done sending, going to sleep for 237 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:35:56
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:36:19
+Done sending, going to sleep for 217 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:39:57
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:40:20
+Done sending, going to sleep for 185 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:43:26
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:43:48
+Done sending, going to sleep for 206 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:47:16
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:47:38
+Done sending, going to sleep for 182 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:50:42
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:51:05
+Done sending, going to sleep for 222 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:54:48
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:55:11
+Done sending, going to sleep for 233 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 15:59:05
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 15:59:27
+Done sending, going to sleep for 208 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:02:56
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:03:19
+Done sending, going to sleep for 208 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:06:48
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:07:11
+Done sending, going to sleep for 239 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:11:11
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:11:33
+Done sending, going to sleep for 221 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:15:16
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:15:38
+Done sending, going to sleep for 234 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:19:33
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:19:56
+Done sending, going to sleep for 203 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:23:20
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:23:43
+Done sending, going to sleep for 236 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:27:40
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:28:03
+Done sending, going to sleep for 222 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:31:47
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:32:09
+Done sending, going to sleep for 211 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:35:42
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:36:04
+Done sending, going to sleep for 205 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:39:31
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:39:53
+Done sending, going to sleep for 215 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:43:29
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:43:52
+Done sending, going to sleep for 195 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:47:08
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:47:31
+Done sending, going to sleep for 216 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:51:08
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:51:31
+Done sending, going to sleep for 207 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:54:59
+Device did not respond to ARP
+Device is not present
+All devices not present
+Sending ten messages on behalf of: 192.168.1.4 at 2017-12-26 16:55:21
+Done sending, going to sleep for 180 seconds then restart.
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 16:58:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 17:02:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 17:06:24
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 17:10:25
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 17:14:25
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 17:18:25
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 17:22:26
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
+Checking to see if device at  192.168.1.4  is on the network at  2017-12-26 17:26:26
+Device responded to ARP
+Device is present
+all devices present; sleeping for 4 min
