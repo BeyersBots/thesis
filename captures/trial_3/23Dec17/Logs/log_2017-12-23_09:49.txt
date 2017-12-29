@@ -110,7 +110,7 @@ Dec 23 18:39:31 pi homebridge[672]: [12/23/2017, 6:39:31 PM] [Office 1] WeMo Mot
 Dec 23 18:39:34 pi homebridge[672]: [12/23/2017, 6:39:34 PM] [Office 1] WeMo Motion - no motion timer started [60 secs]
 Dec 23 18:40:34 pi homebridge[672]: [12/23/2017, 6:40:34 PM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed
 Dec 23 18:41:55 pi homebridge[672]: [12/23/2017, 6:41:55 PM] [Office 1] Online and can update device: undefined [EC1A59E4FD40]
-Dec 23 18:42:02 pi homebridge[672]: [12/23/2017, 6:42:02 PM] [Office 1] Switch 4 - Set state: Off
+Dec 23 18:41:59 pi homebridge[672]: [12/23/2017, 6:41:49 PM] [Office 1] Switch 4 - Set state: Off
 Dec 23 18:42:02 pi homebridge[672]: [12/23/2017, 6:42:02 PM] [Office 1] Switch 4 - Get state: Off
 Dec 23 18:42:12 pi homebridge[672]: [12/23/2017, 6:42:12 PM] [Office 1] Insight - Set state: Off
 Dec 23 18:42:12 pi homebridge[672]: [12/23/2017, 6:42:12 PM] [Office 1] Insight - Get state: Off

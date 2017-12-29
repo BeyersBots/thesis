@@ -35,7 +35,7 @@ Dec 27 10:30:52 pi homebridge[708]: [12/27/2017, 10:30:52 AM] [Office 1] Mini - 
 Dec 27 10:30:57 pi homebridge[708]: [12/27/2017, 10:30:57 AM] [Office 1] Insight - Set state: Off
 Dec 27 10:30:58 pi homebridge[708]: [12/27/2017, 10:30:58 AM] [Office 1] Insight - Get state: Off
 Dec 27 10:30:58 pi homebridge[708]: [12/27/2017, 10:30:58 AM] [Office 1] Insight - Outlet In Use: No
-Dec 27 10:31:02 pi homebridge[708]: [12/27/2017, 10:31:02 AM] [Office 1] Switch 4 - Set state: Off
+Dec 27 10:30:59 pi homebridge[708]: [12/27/2017, 10:30:59 AM] [Office 1] Switch 4 - Set state: Off
 Dec 27 10:31:03 pi homebridge[708]: [12/27/2017, 10:31:03 AM] [Office 1] NetCam - Motion Sensor: Clear; no motion timer completed
 Dec 27 10:31:03 pi homebridge[708]: [12/27/2017, 10:31:03 AM] [Office 1] Switch 4 - Get state: Off
 Dec 27 10:31:40 pi homebridge[708]: [12/27/2017, 10:31:40 AM] [Office 1] WeMo Motion - Motion Sensor: Clear; no motion timer completed

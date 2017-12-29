@@ -1,17 +1,18 @@
 Wi-Fi Results:,
-True Positives,21
-False Positives,226
-False Negatives,11
+True Positives,25
+False Positives,225
+False Negatives,7
 Number of events logged,32
-Number of events identified,247
-Event identification success rate,65.625
-Event identification false positive rate,91.49797570850203
-Event identification false negative rate,34.375
-True positives:
+Number of events identified,250
+Event identification success rate,78.125
+Event identification false positive rate,90.0
+Event identification false negative rate,21.875
 True Positives:
 2017-12-23 09:52,Switch1,1
+2017-12-23 09:53,Switch2,1
 2017-12-23 09:54,Mini,1
 2017-12-23 09:55,Insight,1
+2017-12-23 09:57,Switch3,1
 2017-12-23 09:58,Switch4,1
 2017-12-23 10:01,Switch2,1
 2017-12-23 10:01,Mini,1
@@ -27,6 +28,8 @@ True Positives:
 2017-12-23 18:37,Switch1,1
 2017-12-23 18:38,Switch2,1
 2017-12-23 18:39,Motion,1
+2017-12-23 18:41,Switch4,1
+2017-12-23 18:42,Insight,1
 2017-12-23 18:42,Switch3,1
 2017-12-23 18:42,Switch2,1
 2017-12-23 18:44,Switch1,1
@@ -256,16 +259,11 @@ False Positives:
 2017-12-23 18:39,Switch2,1
 2017-12-23 18:39,Switch3,1
 2017-12-23 18:39,Switch4,1
-2017-12-23 18:41,Switch4,1
 False Negatives:
-2017-12-23 09:53,Switch2,1
 2017-12-23 09:56,Motion,1
-2017-12-23 09:57,Switch3,1
 2017-12-23 09:59,NetCam,1
 2017-12-23 10:04,NetCam,1
 2017-12-23 12:15,NetCam,1
 2017-12-23 18:36,NetCam,1
-2017-12-23 18:42,Switch4,1
-2017-12-23 18:42,Insight,1
 2017-12-23 18:43,NetCam,1
 2017-12-23 18:44,Motion,1

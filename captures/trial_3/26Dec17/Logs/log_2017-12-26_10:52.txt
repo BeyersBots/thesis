@@ -174,8 +174,8 @@ Dec 26 17:20:15 pi homebridge[8035]: [12/26/2017, 5:20:15 PM] [Office 1] WeMo Mo
 Dec 26 17:20:19 pi homebridge[8035]: [12/26/2017, 5:20:19 PM] [Office 1] WeMo Motion - no motion timer started [60 secs]
 Dec 26 17:20:22 pi homebridge[8035]: [12/26/2017, 5:20:22 PM] [Office 1] NetCam - Motion Sensor: Detected
 Dec 26 17:20:31 pi homebridge[8035]: [12/26/2017, 5:20:31 PM] [Office 1] NetCam - no motion timer started [60 secs]
-Dec 26 17:21:02 pi homebridge[8035]: [12/26/2017, 5:21:02 PM] [Office 1] Switch 4 - Set state: Off
-Dec 26 17:21:03 pi homebridge[8035]: [12/26/2017, 5:21:03 PM] [Office 1] Switch 4 - Get state: Off
+Dec 26 17:20:58 pi homebridge[8035]: [12/26/2017, 5:20:58 PM] [Office 1] Switch 4 - Set state: Off
+Dec 26 17:20:59 pi homebridge[8035]: [12/26/2017, 5:20:59 PM] [Office 1] Switch 4 - Get state: Off
 Dec 26 17:21:06 pi homebridge[8035]: [12/26/2017, 5:21:06 PM] [Office 1] Switch 1 - Set state: Off
 Dec 26 17:21:06 pi homebridge[8035]: [12/26/2017, 5:21:06 PM] [Office 1] Switch 1 - Get state: Off
 Dec 26 17:21:08 pi homebridge[8035]: [12/26/2017, 5:21:08 PM] [Office 1] Switch 2 - Set state: Off
